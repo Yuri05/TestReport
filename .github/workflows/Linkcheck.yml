@@ -1,4 +1,4 @@
-name: XRefCheck
+name: Linkcheck_filiph
 
 on: 
   pull_request:
