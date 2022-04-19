@@ -1,0 +1,19 @@
+name: XRefCheck
+
+on: 
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - uses: filiph/linkcheck@v2
+      with:
+        arguments:
