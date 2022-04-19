@@ -2,11 +2,7 @@ name: Check Markdown links
 
 on: 
   pull_request:
-    branches:
-      - review
   push:
-    branches:
-      - review
 
 permissions:
   contents: read
