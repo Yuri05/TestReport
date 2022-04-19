@@ -16,4 +16,4 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: filiph/linkcheck@v2.0.15+1
       with:
-        arguments:
+        arguments: https://github.com/Yuri05/TestReport
