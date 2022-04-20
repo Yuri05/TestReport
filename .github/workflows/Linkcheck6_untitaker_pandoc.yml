@@ -21,5 +21,5 @@ jobs:
 #          rm -f README.html
     - uses: untitaker/hyperlink@0.1.21
       with:
-        args: / --check-anchors
+        args: ./ --check-anchors
 
