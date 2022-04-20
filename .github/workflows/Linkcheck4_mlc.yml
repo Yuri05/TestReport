@@ -1,0 +1,18 @@
+name: Linkcheck_MLC
+
+on: 
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - uses: becheran/mlc@v0.14.3
+
