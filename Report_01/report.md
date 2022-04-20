@@ -58,6 +58,9 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 
 
 [Test invalid link](#invalid-internal-link)
+[Test valid chapter link 1](#11-objective)
+[Test valid chapter link 2 case insensitive](#11-Objective)
+
 
 
 <a id="objective"></a>
