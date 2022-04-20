@@ -10,14 +10,14 @@ permissions:
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
-    container:
-      image: docker://pandoc/latex:2.9
+#    container:
+#      image: docker://pandoc/latex:2.9
 #      options: --entrypoint=sh
     steps:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-    - name: convert md to docx
+    - name: convert md to html
       run: |
           find ./ -iname '*.md' -type f -exec sh -c 'pandoc ${0} -o ${0%.md}.html' {} \;
     - uses: untitaker/hyperlink@0.1.21
