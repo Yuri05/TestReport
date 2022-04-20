@@ -1,4 +1,4 @@
-name: Linkcheck_MLC
+name: Linkcheck_untitaker
 
 on: 
   pull_request:
@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-    - uses: becheran/mlc@v0.14.3
+    - uses: untitaker/hyperlink@0.1.21
       with:
-        args: --no-web-links 
+        args: --check-anchors
 
