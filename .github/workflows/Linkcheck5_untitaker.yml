@@ -16,5 +16,5 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: untitaker/hyperlink@0.1.21
       with:
-        args: public/ --check-anchors
+        args: Report_01/ --check-anchors
 
