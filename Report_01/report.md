@@ -60,8 +60,8 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 [Test invalid link](#invalid-internal-link)
 [Test valid chapter link 1](#11-objective)
 [Test valid chapter link 2 case insensitive](#11-Objective)
-
-
+[Test invalid chapter link](#11-objectives)
+![Test invalid file ref](images/006_section_qualification-of-use-case-ugt-mediated-ddi/DDIRatio_1_ddi_ratio_plot_AUC_predictedVsObserved666.png)
 
 <a id="objective"></a>
 
