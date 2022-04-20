@@ -1,4 +1,4 @@
-name: Linkcheck_filiph
+name: Linkcheck_lychee
 
 on: 
   pull_request:
@@ -14,6 +14,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-    - uses: filiph/linkcheck@v2.0.15+1
+    - uses: lycheeverse/lychee-action@v1.4.1
       with:
-        arguments: https://raw.githubusercontent.com/Yuri05/TestReport/main/Report_01/report.html
+        args: --no-progress --accept 200,403,503 './**/*.md' './**/*.html'
+        fail: true
