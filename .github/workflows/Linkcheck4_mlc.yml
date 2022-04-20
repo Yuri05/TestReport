@@ -15,4 +15,6 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: becheran/mlc@v0.14.3
+      with:
+        args: --no-web-links 
 
