@@ -16,4 +16,5 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: lycheeverse/lychee-action@v1.4.1
       with:
-        args: --offline --dump --no-progress --accept 200,403,503 './**/*.md'
+        args: --offline --no-progress --accept 200,403,503 './**/*.md' './**/*.html'
+        fail: true
