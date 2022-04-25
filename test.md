@@ -4,7 +4,7 @@
 [Valid chapter link case insensitive](#1-Introduction) <br>
 [Valid anchor link](#introduction_anchor) <br>
 [Valid anchor link case insensitive](#Introduction_Anchor) <br><br>
-[Test invalid link](#12-Some_anchor.123$§%) <br>
+[Test invalid link](#12-Some_anchor.123_lala) <br>
 
 
 # Invalid links
@@ -107,5 +107,5 @@
 .<br>
 
 <a id="Some . anchor 123"></a>
-<a id="12-Some_anchor.123$§%"></a>
+<a id="12-Some_anchor.123_lala"></a>
 text
