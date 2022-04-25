@@ -4,7 +4,7 @@
 [Valid chapter link case insensitive](#1-Introduction) <br>
 [Valid anchor link](#introduction_anchor) <br>
 [Valid anchor link case insensitive](#Introduction_Anchor) <br><br>
-[Test invalid link](#Some-anchor) <br>
+[Test invalid link](#some-anchor) <br>
 
 
 # Invalid links
