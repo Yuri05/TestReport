@@ -4,13 +4,13 @@
 [Valid chapter link case insensitive](#1-Introduction) <br>
 [Valid anchor link](#introduction_anchor) <br>
 [Valid anchor link case insensitive](#Introduction_Anchor) <br><br>
-[Test invalid link](#12-Some_anchor.123_lala) <br>
+[Anchor "12-Some_anchor.123_lala"](#12-Some_anchor.123_lala) <br>
 
 
 # Invalid links
 [Test invalid chapter link](#1-invalid) <br>
 [Test invalid anchor link](#invalid_anchor) <br>
-[Test invalid link](#Some:anchor) <br>
+[anchor "Some:anchor"](#Some:anchor) <br>
 
 .<br>
 .<br>
