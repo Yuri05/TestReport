@@ -3809,9 +3809,7 @@
           "Project": "Alfentanil"
         }
       ],
-      "SimulationParameters": [
-       
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Fluconazole-Midazolam-DDI",
@@ -4196,7 +4194,6 @@
             "Olkkola_midazolam_placebo_day 6"
           ]
         }
-       
       ]
     },
     {
@@ -4472,7 +4469,6 @@
             "Varhe triazolam 0.25 mg po fluconazole 50mg"
           ]
         }
-       
       ]
     },
     {
@@ -14105,13 +14101,24 @@
       {
         "SectionId": 2,
         "Title": "CYP3A4 DDI",
-        "PKParameter": "AUC|CMAX",
-        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "PKParameters": [
+          "AUC",
+          "CMAX"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsVsObserved"
+        ],
         "Artifacts": [
           "Plot",
           "GMFE",
           "Measure",
           "Table"
+        ],
+        "Subunits": [
+          "Mechanism",
+          "Perpetrator",
+          "Victim"
         ],
         "Groups": [
           {
@@ -17441,7 +17448,7 @@
               "Id": 1224,
               "Title": "Rifampicin - Verapamil DDI",
               "Content": "Content/Rifampicin-Verapamil-DDI.md"
-            },            
+            },
             {
               "Id": 1225,
               "Title": "Fluconazole - Alfentanil DDI",

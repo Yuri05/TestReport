@@ -56,6 +56,26 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
      * [1.2.26 Fluconazole - Midazolam DDI](#1226)
      * [1.2.27 Fluconazole - Triazolam DDI](#1227)
  * [2 Qualification of Use Case CYP3A4-mediated DDI](#2)
+   * [2.1 Mechanism](#2-ddi-subunit-9)
+     * [2.1.1 Reversible Inhibition](#2-ddi-subunit-10)
+     * [2.1.2 Mechanism-based Inactivation](#2-ddi-subunit-18)
+     * [2.1.3 Induction](#2-ddi-subunit-26)
+   * [2.2 Perpetrator](#2-ddi-subunit-34)
+     * [2.2.1 Cimetidine](#2-ddi-subunit-35)
+     * [2.2.2 Clarithromycin](#2-ddi-subunit-43)
+     * [2.2.3 Erythromycin](#2-ddi-subunit-51)
+     * [2.2.4 Fluvoxamine](#2-ddi-subunit-59)
+     * [2.2.5 Itraconazole](#2-ddi-subunit-67)
+     * [2.2.6 Verapamil](#2-ddi-subunit-75)
+     * [2.2.7 Efavirenz](#2-ddi-subunit-83)
+     * [2.2.8 Rifampicin](#2-ddi-subunit-91)
+     * [2.2.9 Fluconazole](#2-ddi-subunit-99)
+   * [2.3 Victim](#2-ddi-subunit-107)
+     * [2.3.1 Alfentanil](#2-ddi-subunit-108)
+     * [2.3.2 Alprazolam](#2-ddi-subunit-116)
+     * [2.3.3 Midazolam](#2-ddi-subunit-124)
+     * [2.3.4 Triazolam](#2-ddi-subunit-132)
+     * [2.3.5 Verapamil](#2-ddi-subunit-140)
  * [3 Concentration-Time Profiles](#3)
    * [3.1 Cimetidine - Alfentanil DDI](#301)
    * [3.2 Cimetidine - Alprazolam DDI](#302)
@@ -1232,6 +1252,1840 @@ In the plots,
 |2054   |Efavirenz, 400 mg, PO, SD                                                                                                                                                                                                          |Midazolam, IV            |0.95                |0.92               |1.03               |0.98                 |-                  |-                  |Mikus 2017            |
 |2056   |Rifampicin, 600 mg, PO, MD OD (13 days)                                                                                                                                                                                            |Verapamil, IV            |0.86                |0.82               |1.05               |0.98                 |-                  |-                  |Barbarash 1988        |
 |2058   |Rifampicin, 600 mg, PO, MD OD (15 days)                                                                                                                                                                                            |Verapamil, PO            |0.11                |0.07               |1.64               |0.15                 |0.04                |4.02                |Barbarash 1988        |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-9"></a>
+
+## 2.1 Mechanism
+
+
+<a id="2-ddi-subunit-10"></a>
+
+### 2.1.1 Reversible Inhibition
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-5"></a>
+
+**Figure 2-5: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-6"></a>
+
+**Figure 2-6: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-7"></a>
+
+**Figure 2-7: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-8"></a>
+
+**Figure 2-8: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-5"></a>
+
+**Table 2-5: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.44 |
+|CMAX         |1.25 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-6"></a>
+
+**Table 2-6: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |47     |-        |
+|Points within Guest *et al.* |28     |59.57     |
+|Points within 2 fold         |40     |85.11     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-7"></a>
+
+**Table 2-7: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |36     |-        |
+|Points within Guest *et al.* |27     |75.00     |
+|Points within 2 fold         |35     |97.22     |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-18"></a>
+
+### 2.1.2 Mechanism-based Inactivation
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-9"></a>
+
+**Figure 2-9: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-10"></a>
+
+**Figure 2-10: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-11"></a>
+
+**Figure 2-11: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-12"></a>
+
+**Figure 2-12: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-8"></a>
+
+**Table 2-8: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.27 |
+|CMAX         |1.24 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-9"></a>
+
+**Table 2-9: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |28     |-        |
+|Points within Guest *et al.* |23     |82.14     |
+|Points within 2 fold         |26     |92.86     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-10"></a>
+
+**Table 2-10: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |17     |-        |
+|Points within Guest *et al.* |13     |76.47     |
+|Points within 2 fold         |17     |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-26"></a>
+
+### 2.1.3 Induction
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-13"></a>
+
+**Figure 2-13: CYP3A4 DDI. Mechanism: Induction. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-14"></a>
+
+**Figure 2-14: CYP3A4 DDI. Mechanism: Induction. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-15"></a>
+
+**Figure 2-15: CYP3A4 DDI. Mechanism: Induction. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-16"></a>
+
+**Figure 2-16: CYP3A4 DDI. Mechanism: Induction. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-11"></a>
+
+**Table 2-11: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.44 |
+|CMAX         |1.47 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-12"></a>
+
+**Table 2-12: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |78     |-        |
+|Points within Guest *et al.* |56     |71.79     |
+|Points within 2 fold         |66     |84.62     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-13"></a>
+
+**Table 2-13: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |49     |-        |
+|Points within Guest *et al.* |21     |42.86     |
+|Points within 2 fold         |40     |81.63     |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-34"></a>
+
+## 2.2 Perpetrator
+
+
+<a id="2-ddi-subunit-35"></a>
+
+### 2.2.1 Cimetidine
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-17"></a>
+
+**Figure 2-17: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-18"></a>
+
+**Figure 2-18: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-19"></a>
+
+**Figure 2-19: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-20"></a>
+
+**Figure 2-20: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-14"></a>
+
+**Table 2-14: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.41 |
+|CMAX         |1.27 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-15"></a>
+
+**Table 2-15: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |15     |-        |
+|Points within Guest *et al.* |6      |40.00     |
+|Points within 2 fold         |13     |86.67     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-16"></a>
+
+**Table 2-16: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |11     |-        |
+|Points within Guest *et al.* |7      |63.64     |
+|Points within 2 fold         |10     |90.91     |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-43"></a>
+
+### 2.2.2 Clarithromycin
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-21"></a>
+
+**Figure 2-21: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-22"></a>
+
+**Figure 2-22: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-23"></a>
+
+**Figure 2-23: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-24"></a>
+
+**Figure 2-24: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-17"></a>
+
+**Table 2-17: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.23 |
+|CMAX         |1.23 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-18"></a>
+
+**Table 2-18: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |11     |-        |
+|Points within Guest *et al.* |11     |100       |
+|Points within 2 fold         |11     |100       |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-19"></a>
+
+**Table 2-19: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |8      |-        |
+|Points within Guest *et al.* |8      |100       |
+|Points within 2 fold         |8      |100       |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-51"></a>
+
+### 2.2.3 Erythromycin
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-25"></a>
+
+**Figure 2-25: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-26"></a>
+
+**Figure 2-26: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-27"></a>
+
+**Figure 2-27: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-28"></a>
+
+**Figure 2-28: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-20"></a>
+
+**Table 2-20: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.25 |
+|CMAX         |1.23 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-21"></a>
+
+**Table 2-21: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |14     |-        |
+|Points within Guest *et al.* |10     |71.43     |
+|Points within 2 fold         |13     |92.86     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-22"></a>
+
+**Table 2-22: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |8      |-        |
+|Points within Guest *et al.* |4      |50        |
+|Points within 2 fold         |8      |100       |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-59"></a>
+
+### 2.2.4 Fluvoxamine
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-29"></a>
+
+**Figure 2-29: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-30"></a>
+
+**Figure 2-30: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-31"></a>
+
+**Figure 2-31: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-32"></a>
+
+**Figure 2-32: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-23"></a>
+
+**Table 2-23: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.42 |
+|CMAX         |1.43 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-24"></a>
+
+**Table 2-24: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |4      |-        |
+|Points within Guest *et al.* |1      |25        |
+|Points within 2 fold         |4      |100       |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-25"></a>
+
+**Table 2-25: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |3      |-        |
+|Points within Guest *et al.* |1      |33.33     |
+|Points within 2 fold         |3      |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-67"></a>
+
+### 2.2.5 Itraconazole
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-33"></a>
+
+**Figure 2-33: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-34"></a>
+
+**Figure 2-34: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-35"></a>
+
+**Figure 2-35: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-36"></a>
+
+**Figure 2-36: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-26"></a>
+
+**Table 2-26: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.70 |
+|CMAX         |1.28 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-27"></a>
+
+**Table 2-27: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |18     |-        |
+|Points within Guest *et al.* |11     |61.11     |
+|Points within 2 fold         |13     |72.22     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-28"></a>
+
+**Table 2-28: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |13     |-        |
+|Points within Guest *et al.* |11     |84.62     |
+|Points within 2 fold         |13     |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-75"></a>
+
+### 2.2.6 Verapamil
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-37"></a>
+
+**Figure 2-37: CYP3A4 DDI. Perpetrator: Verapamil. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-38"></a>
+
+**Figure 2-38: CYP3A4 DDI. Perpetrator: Verapamil. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-39"></a>
+
+**Figure 2-39: CYP3A4 DDI. Perpetrator: Verapamil. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-40"></a>
+
+**Figure 2-40: CYP3A4 DDI. Perpetrator: Verapamil. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-29"></a>
+
+**Table 2-29: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.48 |
+|CMAX         |1.37 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-30"></a>
+
+**Table 2-30: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |3      |-        |
+|Points within Guest *et al.* |2      |66.67     |
+|Points within 2 fold         |2      |66.67     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-31"></a>
+
+**Table 2-31: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |1      |-        |
+|Points within Guest *et al.* |1      |100       |
+|Points within 2 fold         |1      |100       |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-83"></a>
+
+### 2.2.7 Efavirenz
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-41"></a>
+
+**Figure 2-41: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-42"></a>
+
+**Figure 2-42: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-43"></a>
+
+**Figure 2-43: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-44"></a>
+
+**Figure 2-44: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-32"></a>
+
+**Table 2-32: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.08 |
+|CMAX         |1.24 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-33"></a>
+
+**Table 2-33: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |13     |-        |
+|Points within Guest *et al.* |12     |92.31     |
+|Points within 2 fold         |13     |100.00    |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-34"></a>
+
+**Table 2-34: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |3      |-        |
+|Points within Guest *et al.* |2      |66.67     |
+|Points within 2 fold         |3      |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-91"></a>
+
+### 2.2.8 Rifampicin
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-45"></a>
+
+**Figure 2-45: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-46"></a>
+
+**Figure 2-46: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-47"></a>
+
+**Figure 2-47: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-48"></a>
+
+**Figure 2-48: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-35"></a>
+
+**Table 2-35: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.53 |
+|CMAX         |1.49 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-36"></a>
+
+**Table 2-36: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |65     |-        |
+|Points within Guest *et al.* |44     |67.69     |
+|Points within 2 fold         |53     |81.54     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-37"></a>
+
+**Table 2-37: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |46     |-        |
+|Points within Guest *et al.* |19     |41.30     |
+|Points within 2 fold         |37     |80.43     |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-99"></a>
+
+### 2.2.9 Fluconazole
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-49"></a>
+
+**Figure 2-49: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-50"></a>
+
+**Figure 2-50: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-51"></a>
+
+**Figure 2-51: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-52"></a>
+
+**Figure 2-52: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-38"></a>
+
+**Table 2-38: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.10 |
+|CMAX         |1.14 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-39"></a>
+
+**Table 2-39: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |10     |-        |
+|Points within Guest *et al.* |10     |100       |
+|Points within 2 fold         |10     |100       |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-40"></a>
+
+**Table 2-40: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |9      |-        |
+|Points within Guest *et al.* |8      |88.89     |
+|Points within 2 fold         |9      |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-107"></a>
+
+## 2.3 Victim
+
+
+<a id="2-ddi-subunit-108"></a>
+
+### 2.3.1 Alfentanil
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-53"></a>
+
+**Figure 2-53: CYP3A4 DDI. Victim: Alfentanil. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-54"></a>
+
+**Figure 2-54: CYP3A4 DDI. Victim: Alfentanil. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-55"></a>
+
+**Figure 2-55: CYP3A4 DDI. Victim: Alfentanil. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-56"></a>
+
+**Figure 2-56: CYP3A4 DDI. Victim: Alfentanil. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-41"></a>
+
+**Table 2-41: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.28 |
+|CMAX         |1.29 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-42"></a>
+
+**Table 2-42: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |23     |-        |
+|Points within Guest *et al.* |18     |78.26     |
+|Points within 2 fold         |22     |95.65     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-43"></a>
+
+**Table 2-43: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |14     |-        |
+|Points within Guest *et al.* |4      |28.57     |
+|Points within 2 fold         |14     |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-116"></a>
+
+### 2.3.2 Alprazolam
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-57"></a>
+
+**Figure 2-57: CYP3A4 DDI. Victim: Alprazolam. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-58"></a>
+
+**Figure 2-58: CYP3A4 DDI. Victim: Alprazolam. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-59"></a>
+
+**Figure 2-59: CYP3A4 DDI. Victim: Alprazolam. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-60"></a>
+
+**Figure 2-60: CYP3A4 DDI. Victim: Alprazolam. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-44"></a>
+
+**Table 2-44: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.58 |
+|CMAX         |1.28 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-45"></a>
+
+**Table 2-45: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |9      |-        |
+|Points within Guest *et al.* |3      |33.33     |
+|Points within 2 fold         |8      |88.89     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-46"></a>
+
+**Table 2-46: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |7      |-        |
+|Points within Guest *et al.* |4      |57.14     |
+|Points within 2 fold         |7      |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-124"></a>
+
+### 2.3.3 Midazolam
+
+
+![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-61"></a>
+
+**Figure 2-61: CYP3A4 DDI. Victim: Midazolam. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-62"></a>
+
+**Figure 2-62: CYP3A4 DDI. Victim: Midazolam. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-63"></a>
+
+**Figure 2-63: CYP3A4 DDI. Victim: Midazolam. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-64"></a>
+
+**Figure 2-64: CYP3A4 DDI. Victim: Midazolam. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-47"></a>
+
+**Table 2-47: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.42 |
+|CMAX         |1.41 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-48"></a>
+
+**Table 2-48: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |101    |-        |
+|Points within Guest *et al.* |72     |71.29     |
+|Points within 2 fold         |84     |83.17     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-49"></a>
+
+**Table 2-49: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |62     |-        |
+|Points within Guest *et al.* |38     |61.29     |
+|Points within 2 fold         |53     |85.48     |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-132"></a>
+
+### 2.3.4 Triazolam
+
+
+![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-65"></a>
+
+**Figure 2-65: CYP3A4 DDI. Victim: Triazolam. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-66"></a>
+
+**Figure 2-66: CYP3A4 DDI. Victim: Triazolam. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-67"></a>
+
+**Figure 2-67: CYP3A4 DDI. Victim: Triazolam. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-68"></a>
+
+**Figure 2-68: CYP3A4 DDI. Victim: Triazolam. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-50"></a>
+
+**Table 2-50: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.48 |
+|CMAX         |1.17 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-51"></a>
+
+**Table 2-51: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |16     |-        |
+|Points within Guest *et al.* |11     |68.75     |
+|Points within 2 fold         |14     |87.50     |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-52"></a>
+
+**Table 2-52: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |16     |-        |
+|Points within Guest *et al.* |14     |87.50     |
+|Points within 2 fold         |16     |100.00    |
+
+
+<br>
+<br>
+
+
+<a id="2-ddi-subunit-140"></a>
+
+### 2.3.5 Verapamil
+
+
+![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
+
+<a id="figure-2-69"></a>
+
+**Figure 2-69: CYP3A4 DDI. Victim: Verapamil. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
+
+<a id="figure-2-70"></a>
+
+**Figure 2-70: CYP3A4 DDI. Victim: Verapamil. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
+
+<a id="figure-2-71"></a>
+
+**Figure 2-71: CYP3A4 DDI. Victim: Verapamil. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
+
+<a id="figure-2-72"></a>
+
+**Figure 2-72: CYP3A4 DDI. Victim: Verapamil. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-53"></a>
+
+**Table 2-53: GMFE for CYP3A4 DDI Ratio**
+
+
+|PK parameter |GMFE |
+|:------------|:----|
+|AUC          |1.28 |
+|CMAX         |1.65 |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-54"></a>
+
+**Table 2-54: Summary table for CYP3A4 DDI - AUC Ratio**
+
+
+|AUC                          |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |4      |-        |
+|Points within Guest *et al.* |3      |75        |
+|Points within 2 fold         |4      |100       |
+
+
+<br>
+<br>
+
+
+
+<a id="table-2-55"></a>
+
+**Table 2-55: Summary table for CYP3A4 DDI - CMAX Ratio**
+
+
+|CMAX                         |Number |Ratio [%] |
+|:----------------------------|:------|:---------|
+|Points total                 |3      |-        |
+|Points within Guest *et al.* |1      |33.33     |
+|Points within 2 fold         |2      |66.67     |
 
 
 <br>
