@@ -1,6 +1,0 @@
-"DataID","Perpetrator","Victim","Predicted AUC Ratio","Observed AUC Ratio","Pred/Obs AUC Ratio","Predicted CMAX Ratio","Observed CMAX Ratio","Pred/Obs CMAX Ratio","Reference"
-571,"Atazanavir, 400 mg, PO, MD OD (9 days)","Raltegravir, PO",1.87092195328281,1.72,1.08774532167605,1.57192138282312,1.53,1.02739959661642,"Iwamoto 2008"
-573,"Atazanavir, 400 mg, PO, MD OD (8 days)","Raltegravir, PO",1.82784637482059,1.72,1.06270138070965,1.20946715212138,1.37,0.882822738774731,"Neely 2010"
-575,"Atazanavir, 400 mg, PO, MD OD (9 days)","Raltegravir, PO",1.80092297942125,1.67,1.07839699366542,1.52265551807567,1.16,1.31263406730661,"Krishna 2016"
-579,"Atazanavir, 400 mg, PO, MD BID (14 days)","Raltegravir, PO",1.94399599216687,1.536,1.26562239073364,1.59416606829606,1.394,1.14359115372745,"Zhu 2010"
-642,"Mefenamic Acid, 500 / 250 mg, PO, MD QID (4 days)  with first dose ad loading dose","Dapagliflozin, PO",1.40656005110943,1.51,0.931496722589026,1.1561330020236,1.13,1.02312655046336,"Kasichayanula 2013a"
