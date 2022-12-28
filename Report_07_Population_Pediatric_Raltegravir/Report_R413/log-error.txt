@@ -1,0 +1,60 @@
+28/12/2022 - 17:24:11
+For individualID 355 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:12
+For individualID 324 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:12
+For individualID 494 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 298 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 123 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 189 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 177 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 136 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:13
+For individualID 303 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:18
+For individualID 73 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:18
+For individualID 1 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:18
+For individualID 69 : In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:19
+For individualID 66 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:19
+For individualID 31 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:19
+For individualID 69 : In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:19
+For individualID 4 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:19
+For individualID 0 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:20
+For individualID 14 : In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 17:24:40
+One or more parsing issues, see `problems()` for details
+28/12/2022 - 17:25:44
+NaNs produced
+28/12/2022 - 17:25:44
+NaNs produced
