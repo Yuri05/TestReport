@@ -1,0 +1,49 @@
+28/12/2022 - 18:54:30
+In source:
+ Ignoring parameters 'Applications|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape', 'Applications|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape', 'Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape', 'Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution shape', 'Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape', 'Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution shape', 'Applications|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape', 'Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape' in sensitivity analysis for simulation set Raltegravir 10 mg (lactose formulation) .
+28/12/2022 - 18:54:55
+In source:
+ Ignoring parameters 'Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape' in sensitivity analysis for simulation set Raltegravir 25 mg (lactose formulation) .
+28/12/2022 - 18:56:32
+In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:33
+In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:33
+In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:38
+In source:
+'C_max_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:39
+In source:
+'AUC_tEnd_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:39
+In source:
+'AUC_inf_norm' is not included in expected values: 'C_max', 't_max', 'C_tEnd', 'AUC_tEnd', 'AUC_inf', 'MRT', 'Thalf', 'FractionAucLastToInf', 'CL', 'Vss', 'Vd'.
+28/12/2022 - 18:56:44
+In source:
+'C_max_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:45
+In source:
+'C_max_tD1_tD2_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:45
+In source:
+'C_max_tDLast_tEnd_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:47
+In source:
+'AUC_tD1_tD2_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:47
+In source:
+'AUC_tDLast_minus_1_tDLast_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:48
+In source:
+'AUC_inf_tD1_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:56:48
+In source:
+'AUC_inf_tDLast_norm' is not included in expected values: 'C_max', 'C_max_tD1_tD2', 'C_max_tDLast_tEnd', 't_max', 't_max_tD1_tD2', 't_max_tDLast_tEnd', 'C_trough_tD2', 'C_trough_tDLast', 'AUC_tD1_tD2', 'AUC_tDLast_minus_1_tDLast', 'AUC_inf_tD1', 'AUC_inf_tDLast', 'MRT', 'Thalf', 'Thalf_tDLast_tEnd'.
+28/12/2022 - 18:59:34
+Removed 1000 row(s) containing missing values (geom_path).
+28/12/2022 - 18:59:34
+Removed 1000 row(s) containing missing values (geom_path).

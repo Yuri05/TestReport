@@ -1,0 +1,107 @@
+28/12/2022 - 18:53:44
+Reporting Engine Information:
+Date: 28/12/2022 - 18:53:44
+User Information:
+Computer Name: XXXXXXXX
+User: XXXXXXXX
+Login: XXXXXXXX
+System is NOT validated
+System versions:
+R version: R version 4.1.3 (2022-03-10)
+OSP Suite Package version: 11.1.168
+OSP Reporting Engine version: 2.0.222
+tlf version: 1.4.117
+28/12/2022 - 18:53:44
+Starting run of Mean Model Workflow
+28/12/2022 - 18:53:44
+Starting run of Simulation task
+28/12/2022 - 18:53:45
+Splitting simulations for parallel run:3 simulations split into 1 subsets
+28/12/2022 - 18:53:45
+Starting run of subset simulations
+28/12/2022 - 18:54:12
+Simulation task completed in 0.5 min
+28/12/2022 - 18:54:12
+Starting run of Calculate PK Parameters task
+28/12/2022 - 18:54:12
+Starting run of Calculate PK Parameters task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:54:15
+Starting run of Calculate PK Parameters task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:54:19
+Starting run of Calculate PK Parameters task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:54:23
+Calculate PK Parameters task completed in 0.2 min
+28/12/2022 - 18:54:23
+Starting run of Sensitivity Analysis task
+28/12/2022 - 18:54:23
+Starting run of Sensitivity Analysis task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:54:31
+Starting run of Sensitivity Analysis for path(s) 'Raltegravir|Lipophilicity', 'Raltegravir|Specific intestinal permeability (transcellular)', 'Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes', 'Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes', 'Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape'
+28/12/2022 - 18:54:47
+Sensitivity Analysis completed in 0.3 min
+28/12/2022 - 18:54:47
+Starting run of Sensitivity Analysis task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:54:56
+Starting run of Sensitivity Analysis for path(s) 'Raltegravir|Lipophilicity', 'Raltegravir|Specific intestinal permeability (transcellular)', 'Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes', 'Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes'
+28/12/2022 - 18:55:10
+Sensitivity Analysis completed in 0.2 min
+28/12/2022 - 18:55:10
+Starting run of Sensitivity Analysis task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:55:20
+Starting run of Sensitivity Analysis for path(s) 'Raltegravir|Lipophilicity', 'Raltegravir|Specific intestinal permeability (transcellular)', 'Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes', 'Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes'
+28/12/2022 - 18:56:31
+Sensitivity Analysis completed in 1.2 min
+28/12/2022 - 18:56:31
+Sensitivity Analysis task completed in 2.1 min
+28/12/2022 - 18:56:31
+Starting run of Plot Sensitivity task
+28/12/2022 - 18:56:31
+Starting run of Plot Sensitivity task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:56:38
+Starting run of Plot Sensitivity task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:56:44
+Starting run of Plot Sensitivity task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:56:54
+Plot Sensitivity task completed in 0.4 min
+28/12/2022 - 18:56:54
+Starting run of Plot PK Parameters task
+28/12/2022 - 18:56:54
+Starting run of Plot PK Parameters task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:56:54
+Starting run of Plot PK Parameters task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:56:54
+Starting run of Plot PK Parameters task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:56:55
+Plot PK Parameters task completed in 0 min
+28/12/2022 - 18:56:55
+Starting run of Plot Absorption task
+28/12/2022 - 18:56:55
+Starting run of Plot Absorption task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:57:16
+Starting run of Plot Absorption task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:57:35
+Starting run of Plot Absorption task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:58:15
+Plot Absorption task completed in 1.3 min
+28/12/2022 - 18:58:15
+Starting run of Plot Mass Balance task
+28/12/2022 - 18:58:15
+Starting run of Plot Mass Balance task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:58:28
+Starting run of Plot Mass Balance task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:58:42
+Starting run of Plot Mass Balance task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:59:04
+Plot Mass Balance task completed in 0.8 min
+28/12/2022 - 18:59:04
+Starting run of Plot Time profiles and Residuals task
+28/12/2022 - 18:59:04
+Starting run of Plot Time profiles and Residuals task for Raltegravir 10 mg (lactose formulation)
+28/12/2022 - 18:59:11
+Starting run of Plot Time profiles and Residuals task for Raltegravir 25 mg (lactose formulation)
+28/12/2022 - 18:59:18
+Starting run of Plot Time profiles and Residuals task for Raltegravir 100 mg filmcoated tablet md
+28/12/2022 - 18:59:41
+Plot Time profiles and Residuals task completed in 0.6 min
+28/12/2022 - 18:59:45
+Mean Model Workflow completed in 6 min
