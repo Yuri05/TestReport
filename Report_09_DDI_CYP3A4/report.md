@@ -4365,7 +4365,7 @@ The following section shows concentration time profiles of the victim drugs of t
 **Figure 3-77: Björkhem-Bergman 2013**
 
 
-![](images/032_section_3/054_section_322/comparison_time_profile_Bj%C3%B6rkhem_Bergman_2013_77.png)
+![](images/032_section_3/054_section_322/comparison_time_profile_BjA_rkhem_Bergman_2013_77.png)
 
 
 <br>
