@@ -45,8 +45,9 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
  * [4 4 References](#4)
  * [5 5 Appendix](#5)
    * [5.1 5.1 Open Systems Pharmacology Suite (OSPS) Introduction](#51)
-   * [5.2 5.2 Mathematical Implementation of Drug-Drug Interactions](#52)
-   * [5.3 5.3 Automatic (re)-qualification workflow](#53)
+   * [5.2 References for OSPS introduction](#figure-5-1)
+   * [5.3 5.2 Mathematical Implementation of Drug-Drug Interactions](#52)
+   * [5.4 5.3 Automatic (re)-qualification workflow](#53)
 
 
 
@@ -177,57 +178,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
                    
 
 
-
 <a id="figure-2-1"></a>
-
-**Figure 2-1: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-1: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-2"></a>
 
-**Figure 2-2: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-2: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-3"></a>
 
-**Figure 2-3: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-3: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-4"></a>
 
-**Figure 2-4: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-4: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-1"></a>
@@ -245,10 +245,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-2"></a>
 
-**Table 2-2: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-2: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -262,10 +261,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-3"></a>
 
-**Table 2-3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -277,7 +275,6 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <br>
 <br>
-
 
 
 <a id="table-2-4"></a>
@@ -308,57 +305,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 ### 2.1.1 Reversible Inhibition
 
 
-
 <a id="figure-2-5"></a>
-
-**Figure 2-5: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-5: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-6"></a>
 
-**Figure 2-6: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-6: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-7"></a>
 
-**Figure 2-7: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-7: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-8"></a>
 
-**Figure 2-8: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-8: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-5"></a>
@@ -376,10 +372,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-6"></a>
 
-**Table 2-6: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-6: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -393,10 +388,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-7"></a>
 
-**Table 2-7: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-7: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -420,57 +414,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 ### 2.2.1 Atazanavir
 
 
-
 <a id="figure-2-9"></a>
-
-**Figure 2-9: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_perpetrator_Atazanavir_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-9: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-10"></a>
 
-**Figure 2-10: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Atazanavir_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-10: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-11"></a>
 
-**Figure 2-11: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Atazanavir_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-11: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-12"></a>
 
-**Figure 2-12: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Atazanavir_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-12: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-8"></a>
@@ -488,10 +481,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-9"></a>
 
-**Table 2-9: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-9: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -505,10 +497,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-10"></a>
 
-**Table 2-10: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-10: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -527,57 +518,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 ### 2.2.2 Mefenamic Acid
 
 
-
 <a id="figure-2-13"></a>
-
-**Figure 2-13: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_perpetrator_Mefenamic_Acid_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-13: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-14"></a>
 
-**Figure 2-14: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Mefenamic_Acid_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-14: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-15"></a>
 
-**Figure 2-15: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Mefenamic_Acid_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-15: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-16"></a>
 
-**Figure 2-16: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_perpetrator_Mefenamic_Acid_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-16: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-11"></a>
@@ -595,10 +585,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-12"></a>
 
-**Table 2-12: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-12: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -612,10 +601,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-13"></a>
 
-**Table 2-13: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-13: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -639,57 +627,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 ### 2.3.1 Dapagliflozin
 
 
-
 <a id="figure-2-17"></a>
-
-**Figure 2-17: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_victim_Dapagliflozin_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-17: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-18"></a>
 
-**Figure 2-18: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Dapagliflozin_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-18: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-19"></a>
 
-**Figure 2-19: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Dapagliflozin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-19: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-20"></a>
 
-**Figure 2-20: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Dapagliflozin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-20: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-14"></a>
@@ -707,10 +694,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-15"></a>
 
-**Table 2-15: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-15: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -724,10 +710,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-16"></a>
 
-**Table 2-16: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-16: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -746,57 +731,56 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 ### 2.3.2 Raltegravir
 
 
-
 <a id="figure-2-21"></a>
-
-**Figure 2-21: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed AUC Ratio.**
-
 
 ![](images/006_section_2/DDIRatio_1_victim_Raltegravir_ddi_ratio_plot_AUC_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-21: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-22"></a>
 
-**Figure 2-22: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed AUC Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Raltegravir_ddi_ratio_plot_AUC_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-22: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed AUC Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-23"></a>
 
-**Figure 2-23: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Raltegravir_ddi_ratio_plot_CMAX_predictedVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-23: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="figure-2-24"></a>
 
-**Figure 2-24: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed CMAX Ratio.**
-
-
 ![](images/006_section_2/DDIRatio_1_victim_Raltegravir_ddi_ratio_plot_CMAX_residualsVsObserved.png)
 
 
-<br>
-<br>
 
+**Figure 2-24: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed CMAX Ratio.**
+
+
+<br>
+<br>
 
 
 <a id="table-2-17"></a>
@@ -814,10 +798,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-18"></a>
 
-**Table 2-18: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-18: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -831,10 +814,9 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-
 <a id="table-2-19"></a>
 
-**Table 2-19: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-19: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -905,52 +887,52 @@ In the plots,
                    
 
 
-
 <a id="figure-3-1"></a>
-
-**Figure 3-1: Iwamoto 2008**
-
 
 ![](images/007_section_3/008_section_31/comparison_time_profile_Iwamoto_2008_1.png)
 
 
-<br>
-<br>
 
+**Figure 3-1: Iwamoto 2008**
+
+
+<br>
+<br>
 
 
 <a id="figure-3-2"></a>
 
-**Figure 3-2: Krishna 2016**
-
-
 ![](images/007_section_3/008_section_31/comparison_time_profile_Krishna_2016_2.png)
 
 
-<br>
-<br>
 
+**Figure 3-2: Krishna 2016**
+
+
+<br>
+<br>
 
 
 <a id="figure-3-3"></a>
 
-**Figure 3-3: Neely 2010**
-
-
 ![](images/007_section_3/008_section_31/comparison_time_profile_Neely_2010_3.png)
 
 
-<br>
-<br>
 
+**Figure 3-3: Neely 2010**
+
+
+<br>
+<br>
 
 
 <a id="figure-3-4"></a>
 
-**Figure 3-4: Zhu 2010**
-
-
 ![](images/007_section_3/008_section_31/comparison_time_profile_Zhu_2010_4.png)
+
+
+
+**Figure 3-4: Zhu 2010**
 
 
 <br>
@@ -969,13 +951,13 @@ In the plots,
                    
 
 
-
 <a id="figure-3-5"></a>
 
-**Figure 3-5: Kasichayanula 2013a**
-
-
 ![](images/007_section_3/009_section_32/comparison_time_profile_Kasichayanula_2013a_5.png)
+
+
+
+**Figure 3-5: Kasichayanula 2013a**
 
 
 <br>
@@ -1044,12 +1026,14 @@ Physiological databases included in the software incorporate the dependencies of
 
 **Figure** **1: Structure of the Whole Body PBPK Model integrated in PK-Sim®**
 
+<a id="figure-5-1"></a>
+
 ![generic PBPK model](images/PK-Sim_PBPK_generic_model_scheme.png)
 
 
 
 
-## References for OSPS introduction
+## 5.2 References for OSPS introduction
 
 [1] [www.open-systems-pharmacology.org](http://www.open-systems-pharmacology.org/)
 
@@ -1077,7 +1061,7 @@ Physiological databases included in the software incorporate the dependencies of
 <a id="52"></a>
 
 
-## 5.2 5.2 Mathematical Implementation of Drug-Drug Interactions
+## 5.3 5.2 Mathematical Implementation of Drug-Drug Interactions
 
 
 
@@ -1106,7 +1090,7 @@ A detailed representation of the mathematical implementation of enzyme induction
 <a id="53"></a>
 
 
-## 5.3 5.3 Automatic (re)-qualification workflow
+## 5.4 5.3 Automatic (re)-qualification workflow
 
 
 [Open Systems Pharmacology](http://www.open-systems-pharmacology.org) provides a dynamic landscape of model repositories and a database of observed clinical data. Additionally, a technical framework to assess confidence of a specific intended use has been developed (qualification runner and reporting engine). This framework allows for an automatic (re)-qualification workflow of the OSP suite, comprising the following steps (**Figure 1**):
@@ -1122,6 +1106,8 @@ A detailed representation of the mathematical implementation of enzyme induction
   
 
 **Figure 1: OSP suite automatic (re)-qualification workflow**
+<a id="figure-5-1"></a>
+
 ![OSP qualification workflow](images/OSP_Qualification_Workflow_1.png)
 
 
@@ -1140,6 +1126,8 @@ PK-Sim projects, observed data sets, and qualification scenario text modules are
 
 
 **Figure 2: Qualification scenario repository landscape on GitHub**
+<a id="figure-5-1"></a>
+
 ![OSP qualification workflow detail](images/OSP_Qualification_Workflow_2.png)
 
 
