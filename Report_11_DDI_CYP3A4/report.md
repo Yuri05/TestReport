@@ -107,8 +107,9 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
  * [4 References](#4)
  * [5 Appendix](#5)
    * [5.1 Open Systems Pharmacology Suite (OSPS) Introduction](#51)
-   * [5.2 Mathematical Implementation of Drug-Drug Interactions](#52)
-   * [5.3 Automatic (re)-qualification workflow](#53)
+   * [5.2 References for OSPS introduction](#figure-5-1)
+   * [5.3 Mathematical Implementation of Drug-Drug Interactions](#52)
+   * [5.4 Automatic (re)-qualification workflow](#53)
 
 
 
@@ -206,6 +207,9 @@ The following sensitive CYP3A4 substrates as victim drugs were selected:
 
 
 **Figure** **1: CYP3A4 DDI modeling network**
+<a id="figure-1-1"></a>
+
+![DDI CYP3A4 network](images/DDI_CYP3A4_Compound_Network.png)
 
 <sub>The arrows indicate where at least one clinical DDI study between the two connected substances was available and included in the model network. Red indicates inhibition and green indicates induction as the primary type of interaction. Thin arrows indicate weak, mid-thick arrows moderate and thick arrows strong CYP3A4 modulation by the perpetrator.</sub>
 
@@ -988,12 +992,11 @@ In the plots,
 
 
 
-
-
-
 <a id="figure-2-1"></a>
 
 ![](images/031_section_2/DDIRatio_1_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-1: CYP3A4 DDI.  Predicted vs. Observed AUC Ratio.**
 
@@ -1002,12 +1005,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-2"></a>
 
 ![](images/031_section_2/DDIRatio_1_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-2: CYP3A4 DDI.  Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1016,12 +1018,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-3"></a>
 
 ![](images/031_section_2/DDIRatio_1_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-3: CYP3A4 DDI.  Predicted vs. Observed CMAX Ratio.**
 
@@ -1030,12 +1031,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-4"></a>
 
 ![](images/031_section_2/DDIRatio_1_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-4: CYP3A4 DDI.  Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1044,9 +1044,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-1"></a>
-
 
 **Table 2-1: GMFE for CYP3A4 DDI Ratio**
 
@@ -1061,11 +1059,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-2"></a>
 
-
-**Table 2-2: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-2: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1079,11 +1075,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-3"></a>
 
-
-**Table 2-3: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-3: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1097,9 +1091,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-4"></a>
-
 
 **Table 2-4: Summary table for  CYP3A4 DDI**
 
@@ -1275,12 +1267,11 @@ In the plots,
 ### 2.1.1 Induction
 
 
-
-
-
 <a id="figure-2-5"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-5: CYP3A4 DDI. Mechanism: Induction. Predicted vs. Observed AUC Ratio.**
 
@@ -1289,12 +1280,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-6"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-6: CYP3A4 DDI. Mechanism: Induction. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1303,12 +1293,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-7"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-7: CYP3A4 DDI. Mechanism: Induction. Predicted vs. Observed CMAX Ratio.**
 
@@ -1317,12 +1306,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-8"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Induction_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-8: CYP3A4 DDI. Mechanism: Induction. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1331,9 +1319,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-5"></a>
-
 
 **Table 2-5: GMFE for CYP3A4 DDI Ratio**
 
@@ -1348,11 +1334,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-6"></a>
 
-
-**Table 2-6: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-6: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1366,11 +1350,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-7"></a>
 
-
-**Table 2-7: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-7: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1389,12 +1371,11 @@ In the plots,
 ### 2.1.2 Mechanism-based Inactivation
 
 
-
-
-
 <a id="figure-2-9"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-9: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted vs. Observed AUC Ratio.**
 
@@ -1403,12 +1384,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-10"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-10: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1417,12 +1397,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-11"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-11: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted vs. Observed CMAX Ratio.**
 
@@ -1431,12 +1410,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-12"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Mechanism_based_Inactivation_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-12: CYP3A4 DDI. Mechanism: Mechanism-based Inactivation. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1445,9 +1423,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-8"></a>
-
 
 **Table 2-8: GMFE for CYP3A4 DDI Ratio**
 
@@ -1462,11 +1438,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-9"></a>
 
-
-**Table 2-9: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-9: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1480,11 +1454,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-10"></a>
 
-
-**Table 2-10: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-10: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1503,12 +1475,11 @@ In the plots,
 ### 2.1.3 Reversible Inhibition
 
 
-
-
-
 <a id="figure-2-13"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-13: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed AUC Ratio.**
 
@@ -1517,12 +1488,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-14"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-14: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1531,12 +1501,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-15"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-15: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio.**
 
@@ -1545,12 +1514,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-16"></a>
 
 ![](images/031_section_2/DDIRatio_1_mechanism_Reversible_Inhibition_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-16: CYP3A4 DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1559,9 +1527,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-11"></a>
-
 
 **Table 2-11: GMFE for CYP3A4 DDI Ratio**
 
@@ -1576,11 +1542,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-12"></a>
 
-
-**Table 2-12: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-12: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1594,11 +1558,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-13"></a>
 
-
-**Table 2-13: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-13: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1622,12 +1584,11 @@ In the plots,
 ### 2.2.1 Cimetidine
 
 
-
-
-
 <a id="figure-2-17"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-17: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted vs. Observed AUC Ratio.**
 
@@ -1636,12 +1597,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-18"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-18: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1650,12 +1610,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-19"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-19: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted vs. Observed CMAX Ratio.**
 
@@ -1664,12 +1623,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-20"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Cimetidine_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-20: CYP3A4 DDI. Perpetrator: Cimetidine. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1678,9 +1636,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-14"></a>
-
 
 **Table 2-14: GMFE for CYP3A4 DDI Ratio**
 
@@ -1695,11 +1651,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-15"></a>
 
-
-**Table 2-15: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-15: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1713,11 +1667,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-16"></a>
 
-
-**Table 2-16: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-16: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1736,12 +1688,11 @@ In the plots,
 ### 2.2.2 Clarithromycin
 
 
-
-
-
 <a id="figure-2-21"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-21: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted vs. Observed AUC Ratio.**
 
@@ -1750,12 +1701,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-22"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-22: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1764,12 +1714,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-23"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-23: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted vs. Observed CMAX Ratio.**
 
@@ -1778,12 +1727,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-24"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Clarithromycin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-24: CYP3A4 DDI. Perpetrator: Clarithromycin. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1792,9 +1740,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-17"></a>
-
 
 **Table 2-17: GMFE for CYP3A4 DDI Ratio**
 
@@ -1809,11 +1755,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-18"></a>
 
-
-**Table 2-18: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-18: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1827,11 +1771,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-19"></a>
 
-
-**Table 2-19: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-19: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1850,12 +1792,11 @@ In the plots,
 ### 2.2.3 Efavirenz
 
 
-
-
-
 <a id="figure-2-25"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-25: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted vs. Observed AUC Ratio.**
 
@@ -1864,12 +1805,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-26"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-26: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1878,12 +1818,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-27"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-27: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted vs. Observed CMAX Ratio.**
 
@@ -1892,12 +1831,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-28"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Efavirenz_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-28: CYP3A4 DDI. Perpetrator: Efavirenz. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -1906,9 +1844,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-20"></a>
-
 
 **Table 2-20: GMFE for CYP3A4 DDI Ratio**
 
@@ -1923,11 +1859,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-21"></a>
 
-
-**Table 2-21: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-21: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -1941,11 +1875,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-22"></a>
 
-
-**Table 2-22: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-22: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -1964,12 +1896,11 @@ In the plots,
 ### 2.2.4 Erythromycin
 
 
-
-
-
 <a id="figure-2-29"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-29: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted vs. Observed AUC Ratio.**
 
@@ -1978,12 +1909,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-30"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-30: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -1992,12 +1922,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-31"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-31: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted vs. Observed CMAX Ratio.**
 
@@ -2006,12 +1935,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-32"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Erythromycin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-32: CYP3A4 DDI. Perpetrator: Erythromycin. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2020,9 +1948,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-23"></a>
-
 
 **Table 2-23: GMFE for CYP3A4 DDI Ratio**
 
@@ -2037,11 +1963,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-24"></a>
 
-
-**Table 2-24: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-24: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2055,11 +1979,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-25"></a>
 
-
-**Table 2-25: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-25: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2078,12 +2000,11 @@ In the plots,
 ### 2.2.5 Fluconazole
 
 
-
-
-
 <a id="figure-2-33"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-33: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted vs. Observed AUC Ratio.**
 
@@ -2092,12 +2013,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-34"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-34: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2106,12 +2026,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-35"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-35: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted vs. Observed CMAX Ratio.**
 
@@ -2120,12 +2039,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-36"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluconazole_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-36: CYP3A4 DDI. Perpetrator: Fluconazole. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2134,9 +2052,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-26"></a>
-
 
 **Table 2-26: GMFE for CYP3A4 DDI Ratio**
 
@@ -2151,11 +2067,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-27"></a>
 
-
-**Table 2-27: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-27: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2169,11 +2083,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-28"></a>
 
-
-**Table 2-28: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-28: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2192,12 +2104,11 @@ In the plots,
 ### 2.2.6 Fluvoxamine
 
 
-
-
-
 <a id="figure-2-37"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-37: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted vs. Observed AUC Ratio.**
 
@@ -2206,12 +2117,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-38"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-38: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2220,12 +2130,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-39"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-39: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted vs. Observed CMAX Ratio.**
 
@@ -2234,12 +2143,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-40"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Fluvoxamine_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-40: CYP3A4 DDI. Perpetrator: Fluvoxamine. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2248,9 +2156,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-29"></a>
-
 
 **Table 2-29: GMFE for CYP3A4 DDI Ratio**
 
@@ -2265,11 +2171,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-30"></a>
 
-
-**Table 2-30: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-30: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2283,11 +2187,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-31"></a>
 
-
-**Table 2-31: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-31: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2306,12 +2208,11 @@ In the plots,
 ### 2.2.7 Itraconazole
 
 
-
-
-
 <a id="figure-2-41"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-41: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted vs. Observed AUC Ratio.**
 
@@ -2320,12 +2221,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-42"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-42: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2334,12 +2234,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-43"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-43: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted vs. Observed CMAX Ratio.**
 
@@ -2348,12 +2247,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-44"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Itraconazole_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-44: CYP3A4 DDI. Perpetrator: Itraconazole. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2362,9 +2260,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-32"></a>
-
 
 **Table 2-32: GMFE for CYP3A4 DDI Ratio**
 
@@ -2379,11 +2275,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-33"></a>
 
-
-**Table 2-33: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-33: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2397,11 +2291,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-34"></a>
 
-
-**Table 2-34: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-34: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2420,12 +2312,11 @@ In the plots,
 ### 2.2.8 Rifampicin
 
 
-
-
-
 <a id="figure-2-45"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-45: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted vs. Observed AUC Ratio.**
 
@@ -2434,12 +2325,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-46"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-46: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2448,12 +2338,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-47"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-47: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted vs. Observed CMAX Ratio.**
 
@@ -2462,12 +2351,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-48"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Rifampicin_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-48: CYP3A4 DDI. Perpetrator: Rifampicin. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2476,9 +2364,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-35"></a>
-
 
 **Table 2-35: GMFE for CYP3A4 DDI Ratio**
 
@@ -2493,11 +2379,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-36"></a>
 
-
-**Table 2-36: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-36: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2511,11 +2395,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-37"></a>
 
-
-**Table 2-37: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-37: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2534,12 +2416,11 @@ In the plots,
 ### 2.2.9 Verapamil
 
 
-
-
-
 <a id="figure-2-49"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-49: CYP3A4 DDI. Perpetrator: Verapamil. Predicted vs. Observed AUC Ratio.**
 
@@ -2548,12 +2429,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-50"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-50: CYP3A4 DDI. Perpetrator: Verapamil. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2562,12 +2442,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-51"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-51: CYP3A4 DDI. Perpetrator: Verapamil. Predicted vs. Observed CMAX Ratio.**
 
@@ -2576,12 +2455,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-52"></a>
 
 ![](images/031_section_2/DDIRatio_1_perpetrator_Verapamil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-52: CYP3A4 DDI. Perpetrator: Verapamil. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2590,9 +2468,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-38"></a>
-
 
 **Table 2-38: GMFE for CYP3A4 DDI Ratio**
 
@@ -2607,11 +2483,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-39"></a>
 
-
-**Table 2-39: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-39: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2625,11 +2499,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-40"></a>
 
-
-**Table 2-40: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-40: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2653,12 +2525,11 @@ In the plots,
 ### 2.3.1 Alfentanil
 
 
-
-
-
 <a id="figure-2-53"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-53: CYP3A4 DDI. Victim: Alfentanil. Predicted vs. Observed AUC Ratio.**
 
@@ -2667,12 +2538,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-54"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-54: CYP3A4 DDI. Victim: Alfentanil. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2681,12 +2551,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-55"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-55: CYP3A4 DDI. Victim: Alfentanil. Predicted vs. Observed CMAX Ratio.**
 
@@ -2695,12 +2564,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-56"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alfentanil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-56: CYP3A4 DDI. Victim: Alfentanil. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2709,9 +2577,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-41"></a>
-
 
 **Table 2-41: GMFE for CYP3A4 DDI Ratio**
 
@@ -2726,11 +2592,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-42"></a>
 
-
-**Table 2-42: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-42: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2744,11 +2608,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-43"></a>
 
-
-**Table 2-43: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-43: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2767,12 +2629,11 @@ In the plots,
 ### 2.3.2 Alprazolam
 
 
-
-
-
 <a id="figure-2-57"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-57: CYP3A4 DDI. Victim: Alprazolam. Predicted vs. Observed AUC Ratio.**
 
@@ -2781,12 +2642,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-58"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-58: CYP3A4 DDI. Victim: Alprazolam. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2795,12 +2655,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-59"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-59: CYP3A4 DDI. Victim: Alprazolam. Predicted vs. Observed CMAX Ratio.**
 
@@ -2809,12 +2668,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-60"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Alprazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-60: CYP3A4 DDI. Victim: Alprazolam. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2823,9 +2681,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-44"></a>
-
 
 **Table 2-44: GMFE for CYP3A4 DDI Ratio**
 
@@ -2840,11 +2696,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-45"></a>
 
-
-**Table 2-45: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-45: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2858,11 +2712,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-46"></a>
 
-
-**Table 2-46: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-46: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2881,12 +2733,11 @@ In the plots,
 ### 2.3.3 Midazolam
 
 
-
-
-
 <a id="figure-2-61"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-61: CYP3A4 DDI. Victim: Midazolam. Predicted vs. Observed AUC Ratio.**
 
@@ -2895,12 +2746,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-62"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-62: CYP3A4 DDI. Victim: Midazolam. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -2909,12 +2759,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-63"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-63: CYP3A4 DDI. Victim: Midazolam. Predicted vs. Observed CMAX Ratio.**
 
@@ -2923,12 +2772,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-64"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Midazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-64: CYP3A4 DDI. Victim: Midazolam. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -2937,9 +2785,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-47"></a>
-
 
 **Table 2-47: GMFE for CYP3A4 DDI Ratio**
 
@@ -2954,11 +2800,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-48"></a>
 
-
-**Table 2-48: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-48: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -2972,11 +2816,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-49"></a>
 
-
-**Table 2-49: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-49: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -2995,12 +2837,11 @@ In the plots,
 ### 2.3.4 Triazolam
 
 
-
-
-
 <a id="figure-2-65"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-65: CYP3A4 DDI. Victim: Triazolam. Predicted vs. Observed AUC Ratio.**
 
@@ -3009,12 +2850,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-66"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-66: CYP3A4 DDI. Victim: Triazolam. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -3023,12 +2863,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-67"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-67: CYP3A4 DDI. Victim: Triazolam. Predicted vs. Observed CMAX Ratio.**
 
@@ -3037,12 +2876,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-68"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Triazolam_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-68: CYP3A4 DDI. Victim: Triazolam. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -3051,9 +2889,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-50"></a>
-
 
 **Table 2-50: GMFE for CYP3A4 DDI Ratio**
 
@@ -3068,11 +2904,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-51"></a>
 
-
-**Table 2-51: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-51: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -3086,11 +2920,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-52"></a>
 
-
-**Table 2-52: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-52: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -3109,12 +2941,11 @@ In the plots,
 ### 2.3.5 Verapamil
 
 
-
-
-
 <a id="figure-2-69"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_AUC_predictedVsObserved.png)
+
+
 
 **Figure 2-69: CYP3A4 DDI. Victim: Verapamil. Predicted vs. Observed AUC Ratio.**
 
@@ -3123,12 +2954,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-70"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_AUC_residualsVsObserved.png)
+
+
 
 **Figure 2-70: CYP3A4 DDI. Victim: Verapamil. Predicted/Observed vs. Observed AUC Ratio.**
 
@@ -3137,12 +2967,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-71"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_CMAX_predictedVsObserved.png)
+
+
 
 **Figure 2-71: CYP3A4 DDI. Victim: Verapamil. Predicted vs. Observed CMAX Ratio.**
 
@@ -3151,12 +2980,11 @@ In the plots,
 <br>
 
 
-
-
-
 <a id="figure-2-72"></a>
 
 ![](images/031_section_2/DDIRatio_1_victim_Verapamil_ddi_ratio_plot_CMAX_residualsVsObserved.png)
+
+
 
 **Figure 2-72: CYP3A4 DDI. Victim: Verapamil. Predicted/Observed vs. Observed CMAX Ratio.**
 
@@ -3165,9 +2993,7 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-53"></a>
-
 
 **Table 2-53: GMFE for CYP3A4 DDI Ratio**
 
@@ -3182,11 +3008,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-54"></a>
 
-
-**Table 2-54: Summary table for CYP3A4 DDI - AUC Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-54: Summary table for CYP3A4 DDI - AUC Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |AUC                          |Number |Ratio [%] |
@@ -3200,11 +3024,9 @@ In the plots,
 <br>
 
 
-
 <a id="table-2-55"></a>
 
-
-**Table 2-55: Summary table for CYP3A4 DDI - CMAX Ratio. (d = 1 in Guest *et al.* formula)**
+**Table 2-55: Summary table for CYP3A4 DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -3245,12 +3067,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-1"></a>
 
 ![](images/032_section_3/033_section_301/comparison_time_profile_Kienlen_1993_1.png)
+
+
 
 **Figure 3-1: Kienlen 1993**
 
@@ -3271,12 +3092,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-2"></a>
 
 ![](images/032_section_3/034_section_302/comparison_time_profile_Abernethy_1983_2.png)
+
+
 
 **Figure 3-2: Abernethy 1983**
 
@@ -3285,12 +3105,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-3"></a>
 
 ![](images/032_section_3/034_section_302/comparison_time_profile_Pourbaix_1985_3.png)
+
+
 
 **Figure 3-3: Pourbaix 1985**
 
@@ -3311,12 +3130,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-4"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Greenblatt_1986__midazolam_IV__4.png)
+
+
 
 **Figure 3-4: Greenblatt 1986 (midazolam IV)**
 
@@ -3325,12 +3143,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-5"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Greenblatt_1986__midazolam_PO__5.png)
+
+
 
 **Figure 3-5: Greenblatt 1986 (midazolam PO)**
 
@@ -3339,12 +3156,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-6"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Martinez_1999_6.png)
+
+
 
 **Figure 3-6: Martinez 1999**
 
@@ -3353,12 +3169,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-7"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Fee_1987_7.png)
+
+
 
 **Figure 3-7: Fee 1987**
 
@@ -3367,12 +3182,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-8"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Salonen_1986_8.png)
+
+
 
 **Figure 3-8: Salonen 1986**
 
@@ -3381,12 +3195,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-9"></a>
 
 ![](images/032_section_3/035_section_303/comparison_time_profile_Elliott_1984_9.png)
+
+
 
 **Figure 3-9: Elliott 1984**
 
@@ -3407,12 +3220,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-10"></a>
 
 ![](images/032_section_3/036_section_304/comparison_time_profile_Abernethy_1983_10.png)
+
+
 
 **Figure 3-10: Abernethy 1983**
 
@@ -3421,12 +3233,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-11"></a>
 
 ![](images/032_section_3/036_section_304/comparison_time_profile_Friedman_1988_11.png)
+
+
 
 **Figure 3-11: Friedman 1988**
 
@@ -3435,12 +3246,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-12"></a>
 
 ![](images/032_section_3/036_section_304/comparison_time_profile_Pourbaix_1985_12.png)
+
+
 
 **Figure 3-12: Pourbaix 1985**
 
@@ -3449,12 +3259,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-13"></a>
 
 ![](images/032_section_3/036_section_304/comparison_time_profile_Cox_1986_13.png)
+
+
 
 **Figure 3-13: Cox 1986**
 
@@ -3475,12 +3284,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-14"></a>
 
 ![](images/032_section_3/037_section_305/comparison_time_profile_Smith_1984__verapamil_IV__14.png)
+
+
 
 **Figure 3-14: Smith 1984 (verapamil IV)**
 
@@ -3489,12 +3297,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-15"></a>
 
 ![](images/032_section_3/037_section_305/comparison_time_profile_Smith_1984__verapamil_PO__15.png)
+
+
 
 **Figure 3-15: Smith 1984 (verapamil PO)**
 
@@ -3515,12 +3322,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-16"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Gorski_1998__midazolam_IV__16.png)
+
+
 
 **Figure 3-16: Gorski 1998 (midazolam IV)**
 
@@ -3529,12 +3335,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-17"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Gorski_1998__midazolam_po__17.png)
+
+
 
 **Figure 3-17: Gorski 1998 (midazolam po)**
 
@@ -3543,12 +3348,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-18"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Gurley_2006_18.png)
+
+
 
 **Figure 3-18: Gurley 2006**
 
@@ -3557,12 +3361,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-19"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Gurley_2008a_19.png)
+
+
 
 **Figure 3-19: Gurley 2008a**
 
@@ -3571,12 +3374,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-20"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Markert_2013_20.png)
+
+
 
 **Figure 3-20: Markert 2013**
 
@@ -3585,12 +3387,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-21"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Prueksaritanont_2017_21.png)
+
+
 
 **Figure 3-21: Prueksaritanont 2017**
 
@@ -3599,12 +3400,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-22"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Quinney_2008__midazolam_IV__22.png)
+
+
 
 **Figure 3-22: Quinney 2008 (midazolam IV)**
 
@@ -3613,12 +3413,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-23"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Quinney_2008__midazolam_po__23.png)
+
+
 
 **Figure 3-23: Quinney 2008 (midazolam po)**
 
@@ -3627,12 +3426,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-24"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_van_Dyk_2018_24.png)
+
+
 
 **Figure 3-24: van Dyk 2018**
 
@@ -3641,12 +3439,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-25"></a>
 
 ![](images/032_section_3/038_section_306/comparison_time_profile_Yeates_1996_25.png)
+
+
 
 **Figure 3-25: Yeates 1996**
 
@@ -3667,12 +3464,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-26"></a>
 
 ![](images/032_section_3/039_section_307/comparison_time_profile_Greenblatt_1998a_26.png)
+
+
 
 **Figure 3-26: Greenblatt 1998a**
 
@@ -3693,12 +3489,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-27"></a>
 
 ![](images/032_section_3/040_section_308/comparison_time_profile_Bartkowski_1989_27.png)
+
+
 
 **Figure 3-27: Bartkowski 1989**
 
@@ -3707,12 +3502,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-28"></a>
 
 ![](images/032_section_3/040_section_308/comparison_time_profile_Bartkowski_1993_28.png)
+
+
 
 **Figure 3-28: Bartkowski 1993**
 
@@ -3733,12 +3527,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-29"></a>
 
 ![](images/032_section_3/041_section_309/comparison_time_profile_Yasui_1996_29.png)
+
+
 
 **Figure 3-29: Yasui 1996**
 
@@ -3759,12 +3552,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-30"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Carls_2014_30.png)
+
+
 
 **Figure 3-30: Carls 2014**
 
@@ -3773,12 +3565,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-31"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Okudaira_2007_31.png)
+
+
 
 **Figure 3-31: Okudaira 2007**
 
@@ -3787,12 +3578,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-32"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Olkkola_1993__midazolam_IV__32.png)
+
+
 
 **Figure 3-32: Olkkola 1993 (midazolam IV)**
 
@@ -3801,12 +3591,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-33"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Olkkola_1993__midazolam_po__33.png)
+
+
 
 **Figure 3-33: Olkkola 1993 (midazolam po)**
 
@@ -3815,12 +3604,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-34"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Swart_2002_34.png)
+
+
 
 **Figure 3-34: Swart 2002**
 
@@ -3829,12 +3617,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-35"></a>
 
 ![](images/032_section_3/042_section_310/comparison_time_profile_Zimmermann_1996_35.png)
+
+
 
 **Figure 3-35: Zimmermann 1996**
 
@@ -3855,12 +3642,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-36"></a>
 
 ![](images/032_section_3/043_section_311/comparison_time_profile_Greenblatt_1998_36.png)
+
+
 
 **Figure 3-36: Greenblatt 1998**
 
@@ -3869,12 +3655,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-37"></a>
 
 ![](images/032_section_3/043_section_311/comparison_time_profile_Phillips_1986_37.png)
+
+
 
 **Figure 3-37: Phillips 1986**
 
@@ -3895,12 +3680,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-38"></a>
 
 ![](images/032_section_3/044_section_312/comparison_time_profile_Fleishaker_1994__Day_1__first_dose__38.png)
+
+
 
 **Figure 3-38: Fleishaker 1994 (Day 1, first dose)**
 
@@ -3909,12 +3693,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-39"></a>
 
 ![](images/032_section_3/044_section_312/comparison_time_profile_Fleishaker_1994__Day_10__39.png)
+
+
 
 **Figure 3-39: Fleishaker 1994 (Day 10)**
 
@@ -3935,12 +3718,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-40"></a>
 
 ![](images/032_section_3/045_section_313/comparison_time_profile_Kashuba_1998_40.png)
+
+
 
 **Figure 3-40: Kashuba 1998**
 
@@ -3949,12 +3731,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-41"></a>
 
 ![](images/032_section_3/045_section_313/comparison_time_profile_Lam_2003_41.png)
+
+
 
 **Figure 3-41: Lam 2003**
 
@@ -3975,12 +3756,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-42"></a>
 
 ![](images/032_section_3/046_section_314/comparison_time_profile_Yasui_1998_42.png)
+
+
 
 **Figure 3-42: Yasui 1998**
 
@@ -4001,12 +3781,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-43"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Ahonen_1995_43.png)
+
+
 
 **Figure 3-43: Ahonen 1995**
 
@@ -4015,12 +3794,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-44"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Backman_1998_44.png)
+
+
 
 **Figure 3-44: Backman 1998**
 
@@ -4029,12 +3807,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-45"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Olkkola_1994_45.png)
+
+
 
 **Figure 3-45: Olkkola 1994**
 
@@ -4043,12 +3820,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-46"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Olkkola_1996__day_1_po__46.png)
+
+
 
 **Figure 3-46: Olkkola 1996 (day 1 po)**
 
@@ -4057,12 +3833,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-47"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Olkkola_1996__day_4_iv__47.png)
+
+
 
 **Figure 3-47: Olkkola 1996 (day 4 iv)**
 
@@ -4071,12 +3846,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-48"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Olkkola_1996__day_6_po__48.png)
+
+
 
 **Figure 3-48: Olkkola 1996 (day 6 po)**
 
@@ -4085,12 +3859,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-49"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Prueksaritanont_2017_49.png)
+
+
 
 **Figure 3-49: Prueksaritanont 2017**
 
@@ -4099,12 +3872,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-50"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Templeton_2010_50.png)
+
+
 
 **Figure 3-50: Templeton 2010**
 
@@ -4113,12 +3885,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-51"></a>
 
 ![](images/032_section_3/047_section_315/comparison_time_profile_Yu_2004__CYP3A5_3__3__51.png)
+
+
 
 **Figure 3-51: Yu 2004 (CYP3A5*3/*3)**
 
@@ -4139,12 +3910,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-52"></a>
 
 ![](images/032_section_3/048_section_316/comparison_time_profile_Neuvonen_1996_52.png)
+
+
 
 **Figure 3-52: Neuvonen 1996**
 
@@ -4153,12 +3923,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-53"></a>
 
 ![](images/032_section_3/048_section_316/comparison_time_profile_Varhe_1994_53.png)
+
+
 
 **Figure 3-53: Varhe 1994**
 
@@ -4179,12 +3948,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-54"></a>
 
 ![](images/032_section_3/049_section_317/comparison_time_profile_Backman_1994_54.png)
+
+
 
 **Figure 3-54: Backman 1994**
 
@@ -4193,12 +3961,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-55"></a>
 
 ![](images/032_section_3/049_section_317/comparison_time_profile_Wang_2005__iv__55.png)
+
+
 
 **Figure 3-55: Wang 2005 (iv)**
 
@@ -4207,12 +3974,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-56"></a>
 
 ![](images/032_section_3/049_section_317/comparison_time_profile_Wang_2005__po__56.png)
+
+
 
 **Figure 3-56: Wang 2005 (po)**
 
@@ -4233,12 +3999,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-57"></a>
 
 ![](images/032_section_3/050_section_318/comparison_time_profile_Kharasch_2012_IV_57.png)
+
+
 
 **Figure 3-57: Kharasch 2012 IV**
 
@@ -4247,12 +4012,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-58"></a>
 
 ![](images/032_section_3/050_section_318/comparison_time_profile_Kharasch_2012_PO_58.png)
+
+
 
 **Figure 3-58: Kharasch 2012 PO**
 
@@ -4273,12 +4037,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-59"></a>
 
 ![](images/032_section_3/051_section_319/comparison_time_profile_Mikus_2017_IV_59.png)
+
+
 
 **Figure 3-59: Mikus 2017 IV**
 
@@ -4287,12 +4050,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-60"></a>
 
 ![](images/032_section_3/051_section_319/comparison_time_profile_Mikus_2017_PO_60.png)
+
+
 
 **Figure 3-60: Mikus 2017 PO**
 
@@ -4301,12 +4063,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-61"></a>
 
 ![](images/032_section_3/051_section_319/comparison_time_profile_Katzenmaier_2010_61.png)
+
+
 
 **Figure 3-61: Katzenmaier 2010**
 
@@ -4327,12 +4088,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-62"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_1997_62.png)
+
+
 
 **Figure 3-62: Kharasch 1997**
 
@@ -4341,12 +4101,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-63"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2004__iv__63.png)
+
+
 
 **Figure 3-63: Kharasch 2004 (iv)**
 
@@ -4355,12 +4114,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-64"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2004__po__64.png)
+
+
 
 **Figure 3-64: Kharasch 2004 (po)**
 
@@ -4369,12 +4127,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-65"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011__iv__65.png)
+
+
 
 **Figure 3-65: Kharasch 2011 (iv)**
 
@@ -4383,12 +4140,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-66"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011__po__66.png)
+
+
 
 **Figure 3-66: Kharasch 2011 (po)**
 
@@ -4397,12 +4153,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-67"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011b__iv_during_sequential_administration_of_iv_unlabeled_alfentanil_and_oral_deuterated_alfentanil__67.png)
+
+
 
 **Figure 3-67: Kharasch 2011b (iv during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)**
 
@@ -4411,12 +4166,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-68"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011b__iv_during_simultaneous_administration_of_iv_unlabeled_alfentanil_and_oral_deuterated_alfentanil__68.png)
+
+
 
 **Figure 3-68: Kharasch 2011b (iv during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)**
 
@@ -4425,12 +4179,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-69"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011b__po_during_sequential_administration_of_iv_unlabeled_alfentanil_and_oral_deuterated_alfentanil__69.png)
+
+
 
 **Figure 3-69: Kharasch 2011b (po during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)**
 
@@ -4439,12 +4192,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-70"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Kharasch_2011b__po_during_simultaneous_administration_of_iv_unlabeled_alfentanil_and_oral_deuterated_alfentanil__70.png)
+
+
 
 **Figure 3-70: Kharasch 2011b (po during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)**
 
@@ -4453,12 +4205,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-71"></a>
 
 ![](images/032_section_3/052_section_320/comparison_time_profile_Phimmasone_2001_71.png)
+
+
 
 **Figure 3-71: Phimmasone 2001**
 
@@ -4479,12 +4230,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-72"></a>
 
 ![](images/032_section_3/053_section_321/comparison_time_profile_Gashaw_2003__Day_7__72.png)
+
+
 
 **Figure 3-72: Gashaw 2003 (Day 7)**
 
@@ -4493,12 +4243,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-73"></a>
 
 ![](images/032_section_3/053_section_321/comparison_time_profile_Gashaw_2003__after_washout_phase__73.png)
+
+
 
 **Figure 3-73: Gashaw 2003 (after washout phase)**
 
@@ -4507,12 +4256,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-74"></a>
 
 ![](images/032_section_3/053_section_321/comparison_time_profile_Schmider_1999_74.png)
+
+
 
 **Figure 3-74: Schmider 1999**
 
@@ -4533,12 +4281,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-75"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Backman_1996_75.png)
+
+
 
 **Figure 3-75: Backman 1996**
 
@@ -4547,12 +4294,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-76"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Backman_1998__Phase_IV_and_V_vs__I__76.png)
+
+
 
 **Figure 3-76: Backman 1998 (Phase IV and V vs. I)**
 
@@ -4561,12 +4307,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-77"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_BjA_rkhem_Bergman_2013_77.png)
+
+
 
 **Figure 3-77: Björkhem-Bergman 2013**
 
@@ -4575,12 +4320,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-78"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Chattopadhyay_2018_78.png)
+
+
 
 **Figure 3-78: Chattopadhyay 2018**
 
@@ -4589,12 +4333,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-79"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Chung_2006_79.png)
+
+
 
 **Figure 3-79: Chung 2006**
 
@@ -4603,12 +4346,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-80"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Eap_2004__7_5_mg__80.png)
+
+
 
 **Figure 3-80: Eap 2004 (7.5 mg)**
 
@@ -4617,12 +4359,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-81"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Gorski_2003__iv__81.png)
+
+
 
 **Figure 3-81: Gorski 2003 (iv)**
 
@@ -4631,12 +4372,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-82"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Gorski_2003__po__82.png)
+
+
 
 **Figure 3-82: Gorski 2003 (po)**
 
@@ -4645,12 +4385,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-83"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Gurley_2006_83.png)
+
+
 
 **Figure 3-83: Gurley 2006**
 
@@ -4659,12 +4398,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-84"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Gurley_2008a_84.png)
+
+
 
 **Figure 3-84: Gurley 2008a**
 
@@ -4673,12 +4411,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-85"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kharasch_1997_85.png)
+
+
 
 **Figure 3-85: Kharasch 1997**
 
@@ -4687,12 +4424,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-86"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kharasch_2004__iv__86.png)
+
+
 
 **Figure 3-86: Kharasch 2004 (iv)**
 
@@ -4701,12 +4437,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-87"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kharasch_2004__po__87.png)
+
+
 
 **Figure 3-87: Kharasch 2004 (po)**
 
@@ -4715,12 +4450,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-88"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kharasch_2011__iv__88.png)
+
+
 
 **Figure 3-88: Kharasch 2011 (iv)**
 
@@ -4729,12 +4463,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-89"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kharasch_2011__po__89.png)
+
+
 
 **Figure 3-89: Kharasch 2011 (po)**
 
@@ -4743,12 +4476,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-90"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Kim_2018_90.png)
+
+
 
 **Figure 3-90: Kim 2018**
 
@@ -4757,12 +4489,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-91"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Link_2008__iv__91.png)
+
+
 
 **Figure 3-91: Link 2008 (iv)**
 
@@ -4771,12 +4502,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-92"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Link_2008__po__92.png)
+
+
 
 **Figure 3-92: Link 2008 (po)**
 
@@ -4785,12 +4515,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-93"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Lutz_2008_93.png)
+
+
 
 **Figure 3-93: Lutz 2008**
 
@@ -4799,12 +4528,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-94"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Phimmasone_2001_94.png)
+
+
 
 **Figure 3-94: Phimmasone 2001**
 
@@ -4813,12 +4541,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-95"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Prueksaritanont_2017_95.png)
+
+
 
 **Figure 3-95: Prueksaritanont 2017**
 
@@ -4827,12 +4554,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-96"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Reitman_2011_96.png)
+
+
 
 **Figure 3-96: Reitman 2011**
 
@@ -4841,12 +4567,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-97"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Shin_2013_97.png)
+
+
 
 **Figure 3-97: Shin 2013**
 
@@ -4855,12 +4580,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-98"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Shin_2016_98.png)
+
+
 
 **Figure 3-98: Shin 2016**
 
@@ -4869,12 +4593,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-99"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Szalat_2007_99.png)
+
+
 
 **Figure 3-99: Szalat 2007**
 
@@ -4883,12 +4606,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-100"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_van_Dyk_2018_100.png)
+
+
 
 **Figure 3-100: van Dyk 2018**
 
@@ -4897,12 +4619,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-101"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Wiesinger_2020_101.png)
+
+
 
 **Figure 3-101: Wiesinger 2020**
 
@@ -4911,12 +4632,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-102"></a>
 
 ![](images/032_section_3/054_section_322/comparison_time_profile_Yu_2004__CYP3A5_3__3__102.png)
+
+
 
 **Figure 3-102: Yu 2004 (CYP3A5*3/*3)**
 
@@ -4937,12 +4657,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-103"></a>
 
 ![](images/032_section_3/055_section_323/comparison_time_profile_Villikka_1997_103.png)
+
+
 
 **Figure 3-103: Villikka 1997**
 
@@ -4963,12 +4682,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-104"></a>
 
 ![](images/032_section_3/056_section_324/comparison_time_profile_Barbarash_1988__verapamil_IV__104.png)
+
+
 
 **Figure 3-104: Barbarash 1988 (verapamil IV)**
 
@@ -4977,12 +4695,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-105"></a>
 
 ![](images/032_section_3/056_section_324/comparison_time_profile_Barbarash_1988__verapamil_PO__105.png)
+
+
 
 **Figure 3-105: Barbarash 1988 (verapamil PO)**
 
@@ -5003,12 +4720,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-106"></a>
 
 ![](images/032_section_3/057_section_325/comparison_time_profile_Palkama_1998_106.png)
+
+
 
 **Figure 3-106: Palkama 1998**
 
@@ -5029,12 +4745,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-107"></a>
 
 ![](images/032_section_3/058_section_326/comparison_time_profile_Ahonen_1997_107.png)
+
+
 
 **Figure 3-107: Ahonen 1997**
 
@@ -5043,12 +4758,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-108"></a>
 
 ![](images/032_section_3/058_section_326/comparison_time_profile_Olkkola_1996_Day_1_108.png)
+
+
 
 **Figure 3-108: Olkkola 1996 Day 1**
 
@@ -5057,12 +4771,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-109"></a>
 
 ![](images/032_section_3/058_section_326/comparison_time_profile_Olkkola_1996_Day_4_109.png)
+
+
 
 **Figure 3-109: Olkkola 1996 Day 4**
 
@@ -5071,12 +4784,11 @@ The following section shows concentration time profiles of the victim drugs of t
 <br>
 
 
-
-
-
 <a id="figure-3-110"></a>
 
 ![](images/032_section_3/058_section_326/comparison_time_profile_Olkkola_1996_Day_6_110.png)
+
+
 
 **Figure 3-110: Olkkola 1996 Day 6**
 
@@ -5097,12 +4809,11 @@ The following section shows concentration time profiles of the victim drugs of t
                    
 
 
-
-
-
 <a id="figure-3-111"></a>
 
 ![](images/032_section_3/059_section_327/comparison_time_profile_Varhe_1996c_111.png)
+
+
 
 **Figure 3-111: Varhe 1996c**
 
@@ -5440,11 +5151,14 @@ Physiological databases included in the software incorporate the dependencies of
 
 **Figure** **1: Structure of the Whole Body PBPK Model integrated in PK-Sim®**
 
+<a id="figure-5-1"></a>
+
+![generic PBPK model](images/PK-Sim_PBPK_generic_model_scheme.png)
 
 
 
 
-## References for OSPS introduction
+## 5.2 References for OSPS introduction
 
 [1] [www.open-systems-pharmacology.org](http://www.open-systems-pharmacology.org/)
 
@@ -5472,7 +5186,7 @@ Physiological databases included in the software incorporate the dependencies of
 <a id="52"></a>
 
 
-## 5.2 Mathematical Implementation of Drug-Drug Interactions
+## 5.3 Mathematical Implementation of Drug-Drug Interactions
 
 
 
@@ -5501,7 +5215,7 @@ A detailed representation of the mathematical implementation of enzyme induction
 <a id="53"></a>
 
 
-## 5.3 Automatic (re)-qualification workflow
+## 5.4 Automatic (re)-qualification workflow
 
 
 [Open Systems Pharmacology](http://www.open-systems-pharmacology.org) provides a dynamic landscape of model repositories and a database of observed clinical data. Additionally, a technical framework to assess confidence of a specific intended use has been developed (qualification runner and reporting engine). This framework allows for an automatic (re)-qualification workflow of the OSP suite, comprising the following steps (**Figure 1**):
@@ -5517,6 +5231,9 @@ A detailed representation of the mathematical implementation of enzyme induction
   
 
 **Figure 1: OSP suite automatic (re)-qualification workflow**
+<a id="figure-5-1"></a>
+
+![OSP qualification workflow](images/OSP_Qualification_Workflow_1.png)
 
 
 
@@ -5534,6 +5251,9 @@ PK-Sim projects, observed data sets, and qualification scenario text modules are
 
 
 **Figure 2: Qualification scenario repository landscape on GitHub**
+<a id="figure-5-1"></a>
+
+![OSP qualification workflow detail](images/OSP_Qualification_Workflow_2.png)
 
 
 
