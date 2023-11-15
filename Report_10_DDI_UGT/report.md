@@ -19,18 +19,18 @@
 
 This qualification report is filed at:
 
-https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
+[https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports](https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports)
 
 
 
 # Table of Contents
 
- * [1 1 Introduction](#1)
-   * [1.1 1.1 Objective](#11)
-   * [1.2 1.2 UGT DDI Network](#12)
+ * [1 Introduction](#1)
+   * [1.1 Objective](#11)
+   * [1.2 UGT DDI Network](#12)
      * [1.2.1 Atazanavir - Raltegravir DDI](#121)
      * [1.2.2 Mefenamic acid - Dapagliflozin DDI](#122)
- * [2 2 Qualification of Use Case UGT-mediated DDI](#2)
+ * [2 Qualification of Use Case UGT-mediated DDI](#2)
    * [2.1 Mechanism](#2-ddi-subunit-9)
      * [2.1.1 Reversible Inhibition](#2-ddi-subunit-10)
    * [2.2 Perpetrator](#2-ddi-subunit-18)
@@ -39,15 +39,15 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
    * [2.3 Victim](#2-ddi-subunit-35)
      * [2.3.1 Dapagliflozin](#2-ddi-subunit-36)
      * [2.3.2 Raltegravir](#2-ddi-subunit-44)
- * [3 3 Concentration-Time Profiles](#3)
-   * [3.1 3.1 Atazanavir - Raltegravir DDI](#31)
-   * [3.2 3.2 Mefenamic acid - Dapagliflozin DDI](#32)
- * [4 4 References](#4)
- * [5 5 Appendix](#5)
-   * [5.1 5.1 Open Systems Pharmacology Suite (OSPS) Introduction](#51)
+ * [3 Concentration-Time Profiles](#3)
+   * [3.1 Atazanavir - Raltegravir DDI](#31)
+   * [3.2 Mefenamic acid - Dapagliflozin DDI](#32)
+ * [4 References](#4)
+ * [5 Appendix](#5)
+   * [5.1 Open Systems Pharmacology Suite (OSPS) Introduction](#51)
    * [5.2 References for OSPS introduction](#figure-5-1)
-   * [5.3 5.2 Mathematical Implementation of Drug-Drug Interactions](#52)
-   * [5.4 5.3 Automatic (re)-qualification workflow](#53)
+   * [5.3 Mathematical Implementation of Drug-Drug Interactions](#52)
+   * [5.4 Automatic (re)-qualification workflow](#53)
 
 
 
@@ -56,10 +56,7 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 <a id="1"></a>
 
 
-# 1 1 Introduction
-
-
-                   
+# 1 Introduction
 
 
 
@@ -68,7 +65,7 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 <a id="11"></a>
 
 
-## 1.1 1.1 Objective
+## 1.1 Objective
 
 
 This **qualification report** evaluates for the PBPK platform **PK-Sim** (as part of the open systems pharmacology (OSP) suite) the ability to perform simulations with the intended purpose to predict UGT1A1- and UGT1A9-mediated drug-drug interactions (**DDI**)
@@ -94,7 +91,7 @@ Please refer to the [Appendix](#5-appendix) to learn more details:
 <a id="12"></a>
 
 
-## 1.2 1.2 UGT DDI Network
+## 1.2 UGT DDI Network
 
 
 The following perpetrator compounds were selected:
@@ -129,7 +126,7 @@ The published DDI studies between the respective perpetrators and victim drugs w
 
 
 The release of the snapshot containing the respective simulations can be found here:
-https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI/releases/tag/v1.1.
+[https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI/releases/tag/v1.1]([https://github.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI/releases/tag/v1.1).
 
 The atazanavir / raltegravir interaction was evaluated using four clinical DDI studies ([Iwamoto 2008](#4-references), [Krishna 2008](#4-references), [Neely 2010](#4-references), [Zhu 2010](#4-references)).
 
@@ -172,10 +169,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <a id="2"></a>
 
 
-# 2 2 Qualification of Use Case UGT-mediated DDI
-
-
-                   
+# 2 Qualification of Use Case UGT-mediated DDI
 
 
 <a id="figure-2-1"></a>
@@ -836,7 +830,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <a id="3"></a>
 
 
-# 3 3 Concentration-Time Profiles
+# 3 Concentration-Time Profiles
 
 
 The following section shows the correlations between observed and model-predicted AUC and C<sub>max</sub> ratios, respectively.
@@ -851,7 +845,7 @@ Specifically, the PBPK model performance for the PK parameters **AUC ratio (AUCR
   
   ![GMFE equation](images/GFME_equation.PNG)
   
-- number of AUCR and CMAXR falling within 2-fold error range and within the limits as suggested by [Guest et al. 2011](#4-references)
+- number of AUCR and CMAXR falling within 2-fold error range and within the limits as suggested by [Guest et al. 2011](#ref-guest-2011)
   
 - detailed table of results for each study
 
@@ -861,7 +855,7 @@ In the plots,
 
 - the dotted lines denote 0.50–2.00 (2-fold) criterion,
 
-- the solid lines denote the limits as suggested by [Guest et al. 2011](#4-references),
+- the solid lines denote the limits as suggested by [Guest et al. 2011](#ref-guest-2011),
 
 - the bold solid line denotes the unity line,
 
@@ -881,10 +875,7 @@ In the plots,
 <a id="31"></a>
 
 
-## 3.1 3.1 Atazanavir - Raltegravir DDI
-
-
-                   
+## 3.1 Atazanavir - Raltegravir DDI
 
 
 <a id="figure-3-1"></a>
@@ -945,10 +936,7 @@ In the plots,
 <a id="32"></a>
 
 
-## 3.2 3.2 Mefenamic acid - Dapagliflozin DDI
-
-
-                   
+## 3.2 Mefenamic acid - Dapagliflozin DDI
 
 
 <a id="figure-3-5"></a>
@@ -970,11 +958,11 @@ In the plots,
 <a id="4"></a>
 
 
-# 4 4 References
+# 4 References
 
 
 **Guest 2011** Guest EJ, Aarons L, Houston JB, Rostami-Hodjegan A, Galetin A. Critique of the twofold measure of prediction success for ratios: application for the assessment of drug-drug
-interactions. Drug metabolism and disposition: the biological fate of chemicals. 2011;39(2):170-3
+interactions. Drug metabolism and disposition: the biological fate of chemicals. 2011;39(2):170-3 <a id="ref-guest-2011"></a>
 
 **Iwamoto 2008** Iwamoto M, Wenning LA, Mistry GC, Petry AS, Liou SY, Ghosh K, et al. Atazanavir modestly increases plasma levels of raltegravir in healthy subjects. Clinical infectious diseases :
 an official publication of the Infectious Diseases Society of America. 2008;47(1):137-40.
@@ -1002,10 +990,7 @@ individuals. Antiviral therapy. 2010;15(8):1107-14.
 <a id="5"></a>
 
 
-# 5 5 Appendix
-
-
-                   
+# 5 Appendix
 
 
 
@@ -1014,7 +999,7 @@ individuals. Antiviral therapy. 2010;15(8):1107-14.
 <a id="51"></a>
 
 
-## 5.1 5.1 Open Systems Pharmacology Suite (OSPS) Introduction
+## 5.1 Open Systems Pharmacology Suite (OSPS) Introduction
 
 
 Open Systems Pharmacology Suite (OSP suite) is a tool for PBPK modeling and simulation of drugs in laboratory animals and humans. PK-Sim® and MoBi® are part of the OSP suite [[1](#references-for-osps-introduction)].  PK-Sim® is based on a generic PBPK-model with 18 organs and tissues. One of the main assumptions is that all compartments are well-stirred. Represented organs/tissues include arterial and venous blood, adipose tissue (separable adipose, excluding yellow marrow), brain, lung, bone (including yellow marrow), gonads, heart, kidneys, large intestine, liver, muscle, portal vein, pancreas, skin, small intestine, spleen and stomach, as shown in **Figure 1**.
@@ -1061,7 +1046,7 @@ Physiological databases included in the software incorporate the dependencies of
 <a id="52"></a>
 
 
-## 5.3 5.2 Mathematical Implementation of Drug-Drug Interactions
+## 5.3 Mathematical Implementation of Drug-Drug Interactions
 
 
 
@@ -1090,7 +1075,7 @@ A detailed representation of the mathematical implementation of enzyme induction
 <a id="53"></a>
 
 
-## 5.4 5.3 Automatic (re)-qualification workflow
+## 5.4 Automatic (re)-qualification workflow
 
 
 [Open Systems Pharmacology](http://www.open-systems-pharmacology.org) provides a dynamic landscape of model repositories and a database of observed clinical data. Additionally, a technical framework to assess confidence of a specific intended use has been developed (qualification runner and reporting engine). This framework allows for an automatic (re)-qualification workflow of the OSP suite, comprising the following steps (**Figure 1**):
