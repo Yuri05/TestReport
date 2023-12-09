@@ -1,0 +1,112 @@
+09/12/2023 - 17:42:50
+Simulation file 'Simulation file 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Models/Raltegravir 100 mg filmcoated tablet md.pkml' successfully loaded' successfully loaded
+09/12/2023 - 17:43:03
+Simulation results 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/SimulationResults/Raltegravir 100 mg filmcoated tablet md-SimulationResults.csv' successfully loaded
+09/12/2023 - 17:43:03
+Calculation of PK parameters complete
+09/12/2023 - 17:43:03
+PK parameters for 'Raltegravir 100 mg filmcoated tablet md' saved in 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/PKAnalysisResults/Raltegravir 100 mg filmcoated tablet md-PKAnalysisResults.csv
+09/12/2023 - 17:44:16
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Sensitivity/Raltegravir_100_mg_filmcoated_tablet_md-1_sensitivity_C_max.png' was successfully saved.
+09/12/2023 - 17:44:16
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Sensitivity/Raltegravir_100_mg_filmcoated_tablet_md-2_sensitivity_AUC_tD1_tD2.png' was successfully saved.
+09/12/2023 - 17:44:17
+Table 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/PKAnalysis/Raltegravir_100_mg_filmcoated_tablet_md-pk_parameters_Raltegravir_100_mg_filmcoated_tablet_md.csv' was successfully saved.
+09/12/2023 - 17:45:00
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Absorption/Raltegravir_100_mg_filmcoated_tablet_md-1_absorption_Raltegravir.png' was successfully saved.
+09/12/2023 - 17:45:00
+Table 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Absorption/Raltegravir_100_mg_filmcoated_tablet_md-1_absorption_Raltegravir.csv' was successfully saved.
+09/12/2023 - 17:45:23
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-2_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.png' was successfully saved.
+09/12/2023 - 17:45:26
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-3_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.png' was successfully saved.
+09/12/2023 - 17:45:27
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-4_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.png' was successfully saved.
+09/12/2023 - 17:45:30
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-5_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.png' was successfully saved.
+09/12/2023 - 17:45:31
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-6_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.png' was successfully saved.
+09/12/2023 - 17:45:31
+Table 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/MassBalance/Raltegravir_100_mg_filmcoated_tablet_md-7_mass_balance_Raltegravir_100_mg_filmcoated_tablet_md.csv' was successfully saved.
+09/12/2023 - 17:45:31
+Output 'Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)'. Number of selected observations: 10
+09/12/2023 - 17:45:31
+'20' applications identified for path 'Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)' in simulation 'Raltegravir 100 mg filmcoated tablet md'
+09/12/2023 - 17:45:31
+Time ranges for 'Raltegravir 100 mg filmcoated tablet md' timeRanges
+09/12/2023 - 17:45:31
+1377 simulated data were included in the analysis between 0 and 240 h.
+09/12/2023 - 17:45:31
+10 observed data were included in the analysis between 0 and 240 h.
+09/12/2023 - 17:45:33
+1 values from variable 'Concentration' were negative and removed from the analysis
+09/12/2023 - 17:45:34
+10 residuals data were included in the analysis between 0 and 240 h.
+09/12/2023 - 17:45:37
+81 simulated data were included in the analysis between 0 and 12 h.
+09/12/2023 - 17:45:37
+0 observed data were included in the analysis between 0 and 12 h.
+09/12/2023 - 17:45:38
+1 values from variable 'Concentration' were negative and removed from the analysis
+09/12/2023 - 17:45:39
+0 residuals data were included in the analysis between 0 and 12 h.
+09/12/2023 - 17:45:39
+241 simulated data were included in the analysis between 228 and 240 h.
+09/12/2023 - 17:45:39
+1 observed data were included in the analysis between 228 and 240 h.
+09/12/2023 - 17:45:41
+1 residuals data were included in the analysis between 228 and 240 h.
+09/12/2023 - 17:45:44
+Table 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-1_time_profile_data.csv' was successfully saved.
+09/12/2023 - 17:45:44
+Table 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-2_residuals_data.csv' was successfully saved.
+09/12/2023 - 17:45:44
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-4_timeProfile_Concentration_total.png' was successfully saved.
+09/12/2023 - 17:45:45
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-5_timeProfileLog_Concentration_total.png' was successfully saved.
+09/12/2023 - 17:45:46
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-6_obsVsPred_Concentration_total.png' was successfully saved.
+09/12/2023 - 17:45:46
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-7_obsVsPredLog_Concentration_total.png' was successfully saved.
+09/12/2023 - 17:45:47
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-8_resVsPred_total.png' was successfully saved.
+09/12/2023 - 17:45:47
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-9_resVsTime_total.png' was successfully saved.
+09/12/2023 - 17:45:48
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-10_resHisto_total.png' was successfully saved.
+09/12/2023 - 17:45:48
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-11_resQQPlot_total.png' was successfully saved.
+09/12/2023 - 17:45:49
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-13_timeProfile_Concentration_firstApplication.png' was successfully saved.
+09/12/2023 - 17:45:49
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-14_timeProfileLog_Concentration_firstApplication.png' was successfully saved.
+09/12/2023 - 17:45:50
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-16_timeProfile_Concentration_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:50
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-17_timeProfileLog_Concentration_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:51
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-18_obsVsPred_Concentration_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:51
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-19_obsVsPredLog_Concentration_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:52
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-20_resVsPred_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:52
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-21_resVsTime_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:53
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-22_resHisto_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:53
+Figure 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/TimeProfiles/Raltegravir_100_mg_filmcoated_tablet_md-23_resQQPlot_lastApplication.png' was successfully saved.
+09/12/2023 - 17:45:53
+Reports 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/appendix-sensitivity-analysis.md', 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/appendix-pk-parameters.md', 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/appendix-absorption.md', 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/appendix-mass-balance.md', 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/appendix-time-profile.md' were successfully merged into 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md'
+09/12/2023 - 17:45:54
+In 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md', 0.666666666666667 tables and 26 figures were referenced.
+09/12/2023 - 17:46:12
+Word version of report 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md' created.
+09/12/2023 - 17:46:12
+In 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md', 5 sections were numbered
+09/12/2023 - 17:46:12
+In 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md', table of content of 14 lines was included.
+09/12/2023 - 17:46:12
+'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md' already exists. Overwriting 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md'.
+09/12/2023 - 17:46:12
+Reports 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md' were successfully merged into 'C:/SW-Dev/00/TestReport/00/01_InvalidLinks/Report/Report.md'

@@ -1,0 +1,64 @@
+System is NOT validated
+System versions:
+R version: R version 4.2.2 (2022-10-31 ucrt)
+OSP Suite Package version: 12.0.424
+OSP Reporting Engine version: 2.2.311
+tlf version: 1.5.158
+09/12/2023 - 17:42:47
+Starting run of Mean Model Workflow
+09/12/2023 - 17:42:47
+Starting run of Simulation task
+09/12/2023 - 17:42:47
+Splitting simulations for parallel run:1 simulations split into 1 subsets
+09/12/2023 - 17:42:47
+Starting run of subset simulations
+09/12/2023 - 17:43:00
+Simulation task completed in 0.2 min
+09/12/2023 - 17:43:00
+Starting run of Calculate PK Parameters task
+09/12/2023 - 17:43:00
+Starting run of Calculate PK Parameters task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:43:03
+Calculate PK Parameters task completed in 0.1 min
+09/12/2023 - 17:43:03
+Starting run of Sensitivity Analysis task
+09/12/2023 - 17:43:03
+Starting run of Sensitivity Analysis task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:43:12
+Starting run of Sensitivity Analysis for path(s) 'Raltegravir|Lipophilicity', 'Raltegravir|Specific intestinal permeability (transcellular)', 'Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes', 'Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes'
+09/12/2023 - 17:44:13
+Sensitivity Analysis completed in 1 min
+09/12/2023 - 17:44:13
+Sensitivity Analysis task completed in 1.2 min
+09/12/2023 - 17:44:13
+Starting run of Plot Sensitivity task
+09/12/2023 - 17:44:13
+Starting run of Plot Sensitivity task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:44:16
+Plot Sensitivity task completed in 0.1 min
+09/12/2023 - 17:44:16
+Starting run of Plot PK Parameters task
+09/12/2023 - 17:44:17
+Starting run of Plot PK Parameters task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:44:17
+Plot PK Parameters task completed in 0 min
+09/12/2023 - 17:44:17
+Starting run of Plot Absorption task
+09/12/2023 - 17:44:17
+Starting run of Plot Absorption task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:45:00
+Plot Absorption task completed in 0.7 min
+09/12/2023 - 17:45:00
+Starting run of Plot Mass Balance task
+09/12/2023 - 17:45:00
+Starting run of Plot Mass Balance task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:45:31
+Plot Mass Balance task completed in 0.5 min
+09/12/2023 - 17:45:31
+Starting run of Plot Time profiles and Residuals task
+09/12/2023 - 17:45:31
+Starting run of Plot Time profiles and Residuals task for Raltegravir 100 mg filmcoated tablet md
+09/12/2023 - 17:45:53
+Plot Time profiles and Residuals task completed in 0.4 min
+09/12/2023 - 17:46:12
+Mean Model Workflow completed in 3.4 min
