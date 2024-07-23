@@ -319,8 +319,14 @@
       {
         "SectionId": 2,
         "Title": "UGT1A1 and UGT1A9 Inhibition DDI",
-        "PKParameters": ["AUC","CMAX"],
-        "PlotTypes": ["predictedVsObserved","residualsVsObserved"],
+        "PKParameters": [
+          "AUC",
+          "CMAX"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsVsObserved"
+        ],
         "Subunits": [
           "Mechanism",
           "Perpetrator",
@@ -331,6 +337,14 @@
           "GMFE",
           "Measure",
           "Table"
+        ],
+        "GuestDelta": [
+          {
+            "PKParameters": [
+              "CMAX"
+            ],
+            "Value": 1.4
+          }
         ],
         "Groups": [
           {

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/schema",
   "definitions": {
     "buildingBlockType": {
       "$id": "#buildingBlockType",
@@ -115,6 +115,14 @@
       "type": "string",
       "minLength": 1
     },
+    "sectionReference": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique section reference that can be used to target a section throughout the qualification plan",
+      "format": "regex",
+      "pattern": "^[A-Za-z\\d]+[A-Za-z\\d-_\\.]*$",
+      "example": "section-ref"
+    },
     "plotSize": {
       "type": "integer",
       "minimum": 200,
@@ -127,9 +135,23 @@
         "Square",
         "Diamond",
         "Asterisk",
-        "Point",
         "Cross",
-        "Triangle"
+        "Triangle",
+        "InvertedTriangle",
+        "Plus",
+        "Star",
+        "Pentagon",
+        "Hexagon",
+        "ThinCross",
+        "ThinPlus",
+        "CircleOpen",
+        "DiamondOpen",
+        "HexagonOpen",
+        "InvertedTriangleOpen",
+        "PentagonOpen",
+        "SquareOpen",
+        "StarOpen",
+        "TriangleOpen"
       ]
     },
     "positiveNumber": {
@@ -155,36 +177,35 @@
           },
           "Sections": {
             "$ref": "#/definitions/sections"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "Reference": {
+            "$ref": "#/definitions/sectionReference"
           }
         },
-        "oneOf": [
+        "allOf": [
           {
-            "properties": {
-              "Id": {
-                "type": "integer"
-              }
-            },
-            "required": ["Id"]
+            "required": [
+              "Title"
+            ]
           },
           {
-            "properties": {
-              "Reference": {
-                "$ref": "#/definitions/nonEmptyString"
-              }
-            },
-            "required": ["Reference"]
-          },
-          {
-            "properties": {
-              "Reference": false,
-              "Id": false
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "Id",
+                    "Reference"
+                  ]
+                }
+              ]
             }
           }
-        ]
+        ],
+        "additionalProperties": false
       },
-      "required": [
-        "Title"
-      ],
       "additionalProperties": false
     },
     "ageUnit": {
@@ -634,6 +655,31 @@
       },
       "minItems": 1,
       "uniqueItems": true
+    },
+    "guestDeltaValue": {
+      "type": "number",
+      "minimum": 1.0,
+      "maximum": 2.0
+    },
+    "guestDelta": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "Value": {
+            "$ref": "#/definitions/guestDeltaValue"
+          },
+          "PKParameters": {
+            "$ref": "#/definitions/pkParameters"
+          }
+        },
+        "required": [
+          "Value",
+          "PKParameters"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "type": "object",
@@ -759,7 +805,7 @@
                 "type": "integer"
               },
               "SectionReference": {
-                "$ref": "#/definitions/nonEmptyString"
+                "$ref": "#/definitions/sectionReference"
               },
               "Project": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -799,7 +845,7 @@
                 "type": "integer"
               },
               "SectionReference": {
-                "$ref": "#/definitions/nonEmptyString"
+                "$ref": "#/definitions/sectionReference"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -917,7 +963,7 @@
                 "type": "integer"
               },
               "SectionReference": {
-                "$ref": "#/definitions/nonEmptyString"
+                "$ref": "#/definitions/sectionReference"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -1013,7 +1059,7 @@
                 "type": "integer"
               },
               "SectionReference": {
-                "$ref": "#/definitions/nonEmptyString"
+                "$ref": "#/definitions/sectionReference"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -1098,6 +1144,16 @@
               },
               "Subunits": {
                 "$ref": "#/definitions/subunitsDDIRatioPlots"
+              },
+              "GuestDelta": {
+                "oneOf": [
+                  {
+                    "$ref": "#/definitions/guestDeltaValue"
+                  },
+                  {
+                    "$ref": "#/definitions/guestDelta"
+                  }
+                ]
               }
             },
             "required": [
@@ -1133,7 +1189,7 @@
                 "type": "integer"
               },
               "SectionReference": {
-                "$ref": "#/definitions/nonEmptyString"
+                "$ref": "#/definitions/sectionReference"
               },
               "Title": {
                 "$ref": "#/definitions/nonEmptyString"
@@ -1253,7 +1309,7 @@
             "type": "integer"
           },
           "SectionReference": {
-            "$ref": "#/definitions/nonEmptyString"
+            "$ref": "#/definitions/sectionReference"
           }
         },
         "required": [
