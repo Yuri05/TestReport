@@ -170,7 +170,7 @@ The following dosing scenarios were simulated and compared to respective data fo
 
 
 
-## 2.3 Model parameters and assumptions <a id="23"></a>
+## 2.3 Model parameters and assumptions<a id="23"></a>
 
 
 ### 2.3.1 Absorption
