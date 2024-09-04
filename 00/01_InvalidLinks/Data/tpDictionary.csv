@@ -1,5 +1,0 @@
-ID,type,datasetColumn,datasetUnit,reportName,pathID,comment
-sid,identifier,ID,,NaN,NaN,
-stud,identifier,Study_Num,,NaN,NaN,
-time,timeprofile,Time,h,NaN,NaN,
-dv,timeprofile,UnitConv,µg/l,NaN,NaN,
